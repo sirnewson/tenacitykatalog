@@ -4,4 +4,8 @@ __pycache__/
 *.pyc
 images/*.zip
 images/**/*.mp4
+.prototype-bootstrap/
+node_modules/
+dist/
+qa/edge-*/
 

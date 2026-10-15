@@ -1,11 +1,19 @@
-# Tenacity Locks Catalogue 2026
+# Tenacity Katalog
 
-Responsive, light-mode product catalogue for Tenacity Locks Ltd, built from the supplied brand and product assets.
+A responsive React storefront for Tenacity Locks Ltd. It combines an editorial product-of-the-month hero, category discovery, fast catalogue search and filtering, product details, and direct WhatsApp/call enquiries.
 
-## Edit and rebuild
+## Run locally
 
-1. Update product details in `data/products.json` and section copy in `data/sections.json`.
-2. Run `python build.py` to regenerate `index.html` and optimised product images.
-3. Run `python build.py --pdf` to also regenerate the print and WhatsApp PDFs.
+```bash
+npm install
+npm run dev
+```
 
-The site is static and can be served directly from the repository root.
+## Build and verify
+
+```bash
+npm run build
+npm run test:sites
+```
+
+Edit product records in `data/products.json` and collection copy in `data/sections.json`. The build regenerates `public/catalog.json`, the public AI/search-friendly catalogue feed. Product images and downloadable PDFs are served from `public/`.
