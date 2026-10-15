@@ -65,14 +65,16 @@ def card(p, img_dir, lazy):
     original = esc(p['photo_path'].replace(' ', '%20'))
     loading = ' loading="lazy"' if lazy else ''
     return f'''
-      <article class="card" data-search="{esc(search)}">
+      <article class="card" data-product-id="{esc(p['id'])}" data-section="{esc(p['section'])}" data-search="{esc(search)}" itemscope itemtype="https://schema.org/Product">
+        <meta itemprop="sku" content="{esc(p['model_code'])}">
+        <meta itemprop="brand" content="Tenacity Locks">
         <button class="shot" type="button" data-full="{original}" aria-label="Enlarge photo of {esc(p['model_code'])}">
-          <img src="assets/{img_dir}/{p['id']}.jpg" alt="Tenacity {esc(p['model_code'])} — {esc(p['display_name'])}"{loading} decoding="async">
+          <img itemprop="image" src="assets/{img_dir}/{p['id']}.jpg" alt="Tenacity {esc(p['model_code'])} — {esc(p['display_name'])}"{loading} decoding="async">
           <span class="badges">{badges(p)}</span>
         </button>
         <div class="card-body">
-          <h4 class="model">{esc(p['model_code'])}</h4>
-          <p class="name">{esc(p['display_name'])}</p>
+          <h4 class="model" itemprop="name">{esc(p['model_code'])}</h4>
+          <p class="name" itemprop="description">{esc(p['display_name'])}</p>
           <ul class="specs">{specs}</ul>
           {price_block(p)}
         </div>
@@ -129,7 +131,24 @@ def build_html(products, cfg, img_dir='img', lazy=True):
     notes = ''.join(f'<li>{n}</li>' for n in cfg['notes'])
     fine = ''.join(f'<li>{esc(n)}</li>' for n in cfg['fine_print'])
     template = (ROOT / 'template.html').read_text(encoding='utf-8')
+    jsonld = {
+        '@context': 'https://schema.org',
+        '@type': 'Store',
+        'name': 'Tenacity Locks Ltd',
+        'telephone': c['phone_tel'],
+        'address': {'@type': 'PostalAddress', 'streetAddress': c['location'], 'addressCountry': 'KE'},
+        'hasOfferCatalog': {
+            '@type': 'OfferCatalog', 'name': 'Tenacity Locks Product Catalogue 2026',
+            'itemListElement': [
+                {'@type': 'Offer', 'priceCurrency': 'KES', 'price': p['price_kes'],
+                 'itemOffered': {'@type': 'Product', 'sku': p['model_code'],
+                                 'name': p['display_name'], 'brand': {'@type': 'Brand', 'name': 'Tenacity Locks'}}}
+                for p in products if p['price_kes'] is not None
+            ]
+        }
+    }
     return (template
+            .replace('{{JSONLD}}', json.dumps(jsonld, ensure_ascii=False, separators=(',', ':')).replace('</', '<\\/'))
             .replace('{{HERO}}', f'assets/{img_dir}/{hero["id"]}.jpg')
             .replace('{{PHONE}}', esc(c['phone'])).replace('{{TEL}}', esc(c['phone_tel']))
             .replace('{{LOCATION}}', esc(c['location'])).replace('{{CTA}}', esc(c['cta']))
@@ -155,6 +174,11 @@ def main():
     products = json.loads((DATA / 'products.json').read_text(encoding='utf-8'))
     cfg = json.loads((DATA / 'sections.json').read_text(encoding='utf-8'))
     make_images(products)
+    catalog = {
+        'schema_version': '1.0', 'currency': 'KES', 'brand': 'Tenacity Locks Ltd',
+        'contact': cfg['contact'], 'collections': cfg['collections'], 'products': products
+    }
+    (ROOT / 'catalog.json').write_text(json.dumps(catalog, ensure_ascii=False, indent=2), encoding='utf-8')
     (ROOT / 'index.html').write_text(build_html(products, cfg), encoding='utf-8')
     print(f'index.html: {len(products)} products')
     if '--pdf' in sys.argv:

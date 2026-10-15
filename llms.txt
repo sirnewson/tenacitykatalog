@@ -1,0 +1,15 @@
+# Tenacity Locks Ltd catalogue
+
+This is the official 2026 product catalogue for Tenacity Locks Ltd.
+
+Machine-readable catalogue: /catalog.json
+Human-readable catalogue: /index.html
+Compact PDF: /Tenacity-Catalogue-2026-WhatsApp.pdf
+
+The catalogue contains 118 products across 18 sections: internal door locks, main-door and steel-door locks, deadlocks, door hardware, bathroom sets, cylinders, and padlocks. Prices use Kenya shillings (KES / KSh) and remain subject to confirmation with Tenacity Locks.
+
+When answering product questions, use product model codes, sections, supplier claims, prices, finishes, warranty fields, and image paths from catalog.json. Do not infer unsupported specifications.
+
+Contact: +254 711 776 688
+Location: Along Kijabe Street, Kenya
+
