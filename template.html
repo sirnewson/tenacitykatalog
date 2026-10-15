@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tenacity Locks Catalogue</title>
+<meta name="description" content="Tenacity Locks Ltd product catalogue 2026: internal and main-door locks, deadlocks, cylinders, door hardware and padlocks with prices in KSh.">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --ink:#282627; --muted:#6b676a; --paper:#ffffff; --card:#ffffff; --line:#eee8ed;
+  --brand:#981491; --brand-deep:#74106f; --brand-soft:#fbf0fa; --gold:#b99a3b;
+  --offer:#c2410c; --offer-soft:#fff1e8; --ok:#15803d; --ok-soft:#ecfdf3;
+  --radius:14px; --shadow:0 1px 2px rgba(30,20,40,.05),0 6px 20px rgba(30,20,40,.06);
+  --font:"Inter","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:120px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 var(--font);overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* ---------- top bar ---------- */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);
+  backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.topbar-row{display:flex;align-items:center;gap:10px;padding:10px 16px;max-width:1180px;margin:0 auto}
+.wordmark{display:block;flex:0 0 auto;width:164px;text-decoration:none}
+.wordmark img{width:100%;height:auto}
+.search{flex:1;min-width:0;position:relative}
+.search input{width:100%;font:inherit;font-size:16px;padding:9px 12px 9px 36px;border-radius:999px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink)}
+.search input:focus{outline:2px solid var(--brand);outline-offset:1px}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:6px;font:600 13px var(--font);padding:9px 14px;border-radius:999px;
+  border:1px solid var(--brand);background:var(--brand);color:#fff;text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn-ghost{background:transparent;color:var(--brand)}
+.btn svg{width:16px;height:16px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:0 16px 10px;max-width:1180px;margin:0 auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;text-decoration:none;font-size:13px;font-weight:500;padding:6px 12px;border-radius:999px;
+  border:1px solid var(--line);background:var(--card);color:var(--muted)}
+.chips a.active{background:var(--brand-soft);color:var(--brand);border-color:transparent}
+@media (max-width:640px){ .btn .lbl{display:none} .btn{padding:9px 10px} .wordmark{width:96px}.search input{padding-left:34px} }
+
+/* ---------- cover ---------- */
+.cover{position:relative;overflow:hidden;background:linear-gradient(135deg,#fff 0%,#fff 52%,#fbf0fa 100%);color:var(--ink);border-bottom:1px solid var(--line)}
+.cover-inner{display:grid;gap:24px;align-items:center;padding:40px 16px 32px;max-width:1180px;margin:0 auto}
+.cover .eyebrow{color:var(--brand)}
+.cover h1{font-size:clamp(38px,9vw,76px);line-height:.95;letter-spacing:-.03em;margin:8px 0 14px;font-weight:800}
+.cover h1 span{display:block;font-weight:500;font-size:.42em;letter-spacing:.02em;margin-top:12px;opacity:.9}
+.cover p{max-width:46ch;color:var(--muted);margin:0 0 20px}
+.cover-photo{background:#fff;border:1px solid var(--line);border-radius:18px;padding:10px;box-shadow:0 20px 50px rgba(93,20,89,.12);max-width:420px;justify-self:center}
+.cover-photo img{border-radius:10px}
+.cover-meta{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:14px}
+.cover-meta b{display:block;font-size:20px}
+.cover .btn{background:var(--brand);color:#fff;border-color:var(--brand)}
+.cover .btn-ghost{background:#fff;color:var(--brand);border-color:var(--brand)}
+.cover-cta{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+@media (min-width:860px){.cover-inner{grid-template-columns:1.15fr .85fr;padding:72px 16px}}
+
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0}
+
+/* ---------- intro pages ---------- */
+.page{padding:44px 0}
+.page h2{font-size:clamp(26px,5vw,36px);letter-spacing:-.02em;margin:6px 0 18px}
+.toc{display:grid;gap:18px}
+@media (min-width:760px){.toc{grid-template-columns:1fr 1fr}}
+.toc-col{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+.toc-col h3{margin:0 0 8px;font-size:17px}
+.toc-col h3 span{display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.toc-col ol{list-style:none;margin:0;padding:0}
+.toc-col a{display:flex;gap:12px;align-items:baseline;padding:8px 0;border-top:1px solid var(--line);text-decoration:none}
+.toc-num{font-weight:800;color:var(--brand);font-variant-numeric:tabular-nums;width:22px}
+.toc-title{flex:1}
+.toc-title em{font-style:normal;font-size:12px;color:var(--muted);margin-left:6px;white-space:nowrap}
+.toc-count{font-size:12px;color:var(--muted)}
+.two{display:grid;gap:18px}
+@media (min-width:860px){.two{grid-template-columns:1.2fr 1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.panel h3{margin:0 0 10px;font-size:18px}
+.guide{width:100%;border-collapse:collapse;font-size:14px}
+.guide td{padding:9px 0;border-top:1px solid var(--line);vertical-align:top}
+.guide td:last-child{text-align:right;font-weight:700;color:var(--brand);padding-left:12px;white-space:nowrap}
+.ticks{list-style:none;margin:0;padding:0;font-size:14px}
+.ticks li{padding:8px 0 8px 26px;border-top:1px solid var(--line);position:relative}
+.ticks li::before{content:"";position:absolute;left:2px;top:13px;width:12px;height:7px;border:2px solid var(--brand);
+  border-top:0;border-right:0;transform:rotate(-45deg)}
+
+/* ---------- collections & sections ---------- */
+.collection-head{background:linear-gradient(120deg,var(--brand-soft),#fff);color:var(--ink);padding:40px 16px 34px;margin-top:20px;border-block:1px solid var(--line)}
+.collection-head>*{max-width:1148px;margin-left:auto;margin-right:auto}
+.collection-head h2{font-size:clamp(28px,6vw,48px);letter-spacing:-.025em;margin:6px auto 10px}
+.collection-head p:last-child{max-width:70ch;color:var(--muted);margin-bottom:0}
+.collection-head .eyebrow{color:var(--brand)}
+.section{max-width:1180px;margin:0 auto;padding:34px 16px 10px}
+.section-head{display:flex;gap:16px;margin-bottom:18px}
+.section-num{font-size:44px;font-weight:800;line-height:1;color:var(--brand);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.section-text{flex:1;min-width:0}
+.cat{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  background:var(--brand-soft);color:var(--brand);padding:3px 9px;border-radius:999px;margin-bottom:6px}
+.section h3{font-size:clamp(20px,4vw,26px);line-height:1.2;letter-spacing:-.015em;margin:0 0 8px}
+.lead{margin:0 0 10px;color:var(--muted);max-width:75ch}
+blockquote{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--gold);background:var(--card);
+  border-radius:0 8px 8px 0;font-size:14px;font-style:italic;max-width:75ch}
+blockquote span{display:block;font-style:normal;font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.facts{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.facts li{font-size:12.5px;font-weight:600;padding:4px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card)}
+
+.grid{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:700px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}}
+@media (min-width:1020px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  display:flex;flex-direction:column;box-shadow:var(--shadow)}
+.shot{position:relative;display:block;width:100%;padding:0;border:0;background:#fff;cursor:zoom-in;aspect-ratio:4/5}
+.shot img{width:100%;height:100%;object-fit:contain}
+.badges{position:absolute;left:6px;bottom:6px;display:flex;flex-wrap:wrap;gap:4px}
+.badge{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 7px;border-radius:6px;
+  background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.badge-offer{background:#c2410c;color:#fff}
+.badge-g5{background:#fff;color:#14532d}
+.badge-life{background:#1f1b24;color:#f0d68a}
+.card-body{padding:10px 12px 12px;display:flex;flex-direction:column;flex:1}
+.model{font-size:15px;font-weight:800;margin:0;letter-spacing:-.01em}
+.name{font-size:13px;color:var(--muted);margin:1px 0 6px}
+.specs{list-style:none;margin:0 0 8px;padding:0;font-size:12px;color:var(--ink)}
+.specs li{padding-left:11px;position:relative;line-height:1.4;margin-bottom:2px}
+.specs li::before{content:"";position:absolute;left:0;top:.55em;width:5px;height:5px;border-radius:50%;background:var(--brand)}
+.price{margin:auto 0 0;font-size:18px;font-weight:800;color:var(--brand);font-variant-numeric:tabular-nums}
+.price s{font-size:12.5px;font-weight:500;color:var(--muted);margin-left:4px}
+.price-tbc{font-size:14px;color:var(--muted)}
+.variants{margin-top:auto;width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
+.variants th,.variants td{padding:3px 0;border-top:1px solid var(--line)}
+.variants th{text-align:left;font-weight:500;color:var(--muted)}
+.variants td{text-align:right;font-weight:800;color:var(--brand)}
+@media (max-width:420px){.card-body{padding:9px 10px 11px}.model{font-size:14px}.price{font-size:16px}}
+
+.empty{display:none;text-align:center;color:var(--muted);padding:60px 16px}
+body.searching .collection-head,body.searching .intro-pages,body.searching .cover{display:none}
+
+/* ---------- closing ---------- */
+.closing{background:linear-gradient(135deg,var(--brand-soft),#fff);color:var(--ink);border-top:1px solid var(--line);margin-top:40px;padding:54px 16px}
+.closing-inner{max-width:1180px;margin:0 auto}
+.closing h2{font-size:clamp(28px,6vw,46px);letter-spacing:-.025em;margin:6px 0 16px;max-width:18ch}
+.closing .phone{font-size:clamp(28px,7vw,44px);font-weight:800;text-decoration:none;display:inline-block;margin:6px 0}
+.closing .eyebrow{color:var(--brand)}
+.fine{font-size:12.5px;opacity:.82;max-width:80ch;padding-left:18px;margin-top:26px}
+
+/* ---------- lightbox ---------- */
+dialog.lightbox{border:0;padding:0;background:transparent;max-width:min(96vw,900px);max-height:94vh}
+dialog.lightbox::backdrop{background:rgba(12,8,16,.86)}
+dialog.lightbox img{max-height:88vh;width:auto;margin:auto;border-radius:10px;background:#fff}
+dialog.lightbox button{position:fixed;top:12px;right:12px;width:44px;height:44px;border-radius:50%;border:0;
+  background:#fff;color:#000;font-size:24px;cursor:pointer}
+.totop{position:fixed;right:16px;bottom:16px;z-index:15;width:44px;height:44px;border-radius:50%;border:0;
+  background:var(--brand);color:#fff;font-size:20px;box-shadow:var(--shadow);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s}
+.totop.show{opacity:1;pointer-events:auto}
+
+/* ---------- print / PDF (A4) ---------- */
+@page{size:A4;margin:13mm 12mm 15mm;
+  @bottom-left{content:"Tenacity Locks Ltd · Product Catalogue 2026";font:8pt var(--font);color:#777}
+  @bottom-right{content:counter(page);font:8pt var(--font);color:#777}}
+@page cover{margin:0;@bottom-left{content:none}@bottom-right{content:none}}
+@media print{
+  :root{--ink:#282627;--muted:#5d5866;--paper:#fff;--card:#fff;--line:#e3dde8;--brand:#981491;--brand-deep:#74106f;--brand-soft:#fbf0fa;--shadow:none}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  html{scroll-behavior:auto}
+  body{font-size:9.5pt;background:#fff}
+  .topbar,.totop,dialog,.cover-cta,.empty{display:none!important}
+  .cover{page:cover;height:297mm;display:flex;align-items:center;break-after:page}
+  .cover-inner{grid-template-columns:1.1fr .9fr;padding:0 16mm;width:100%}
+  .cover h1{font-size:54pt}
+  .page{padding:0;break-after:page}
+  .page h2{font-size:22pt;margin:4px 0 10px}
+  .wrap{padding:0;max-width:none}
+  .toc{grid-template-columns:1fr 1fr;gap:10px}
+  .toc-col{padding:10px 12px;break-inside:avoid}
+  .toc-col a{padding:5px 0;font-size:9pt}
+  .two{grid-template-columns:1.2fr 1fr;gap:10px}
+  .panel{padding:12px 14px;break-inside:avoid}
+  .collection{break-before:page}
+  .collection-head{margin:0;padding:14mm 10mm 10mm;border-radius:10px}
+  .collection-head h2{font-size:28pt}
+  .section{padding:8mm 0 0;max-width:none}
+  .section-head{break-inside:avoid;break-after:avoid;margin-bottom:10px}
+  .section-num{font-size:30pt}
+  .section h3{font-size:15pt}
+  .lead,blockquote{font-size:9pt}
+  .grid{grid-template-columns:repeat(4,1fr);gap:8px}
+  .card{break-inside:avoid;border-radius:9px}
+  .shot{aspect-ratio:4/4.6}
+  .model{font-size:10.5pt}.name{font-size:8.5pt}.specs{font-size:7.8pt}.price{font-size:12pt}
+  .variants{font-size:8pt}
+  .badge{font-size:6.5pt}
+  .closing{break-before:page;margin:0;border-radius:10px;padding:20mm 14mm}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-row">
+    <a class="wordmark" href="#top" aria-label="Tenacity Locks home"><img src="assets/tenacity-logo.png" alt="Tenacity Locks Ltd"></a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search model, finish, price…" aria-label="Search products" autocomplete="off">
+    </label>
+    <a class="btn btn-ghost" href="Tenacity-Catalogue-2026-WhatsApp.pdf" download title="Download PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg><span class="lbl">PDF</span></a>
+    <a class="btn" href="tel:{{TEL}}" title="Call {{PHONE}}">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><span class="lbl">Call</span></a>
+  </div>
+  <nav class="chips" aria-label="Collections">{{CHIPS}}</nav>
+</header>
+
+<main id="top">
+<section class="cover">
+  <div class="cover-inner">
+    <div>
+      <p class="eyebrow">Tenacity Locks Ltd</p>
+      <h1>Product Catalogue 2026<span>Door locks · Deadlocks · Cylinders · Door hardware · Padlocks</span></h1>
+      <p>{{COUNT}} products in 18 sections, from budget internal locks to premium SUS 304 stainless steel main-door locks. Each product is shown with its photo, key details and price.</p>
+      <div class="cover-meta">
+        <div><b>{{PHONE}}</b>Call to order</div>
+        <div><b>{{LOCATION}}</b>Find us</div>
+      </div>
+      <div class="cover-cta">
+        <a class="btn" href="#contents">Browse catalogue</a>
+        <a class="btn btn-ghost" href="Tenacity-Catalogue-2026-WhatsApp.pdf" download>Download PDF</a>
+      </div>
+    </div>
+    <div class="cover-photo"><img src="{{HERO}}" alt="Tenacity Big F6 SUS 304 stainless steel mortice lock"></div>
+  </div>
+</section>
+
+<div class="intro-pages">
+<section class="page wrap" id="contents">
+  <p class="eyebrow">Contents</p>
+  <h2>Five collections, 18 sections</h2>
+  <div class="toc">{{TOC}}</div>
+</section>
+
+<section class="page wrap" id="guide">
+  <p class="eyebrow">Before you choose</p>
+  <h2>Pick the right lock for the door</h2>
+  <div class="two">
+    <div class="panel">
+      <h3>Which section fits your door?</h3>
+      <table class="guide"><tbody>{{GUIDE}}</tbody></table>
+    </div>
+    <div class="panel">
+      <h3>Guarantees &amp; cylinder sizes</h3>
+      <ul class="ticks">{{NOTES}}</ul>
+    </div>
+  </div>
+</section>
+</div>
+
+{{BODY}}
+
+<p class="empty" id="empty">No products match your search. Try a model number like “510” or a finish like “MAB”.</p>
+
+<section class="closing" id="contact">
+  <div class="closing-inner">
+    <p class="eyebrow">Order &amp; enquiries</p>
+    <h2>{{CTA}}</h2>
+    <a class="phone" href="tel:{{TEL}}">{{PHONE}}</a>
+    <p>Tenacity Locks Ltd · {{LOCATION}}</p>
+    <ul class="fine">{{FINE}}</ul>
+  </div>
+</section>
+</main>
+
+<dialog class="lightbox" id="lb"><button type="button" aria-label="Close">×</button><img alt=""></dialog>
+<button class="totop" id="totop" type="button" aria-label="Back to top">↑</button>
+
+<script>
+(() => {
+  const q = document.getElementById('q'), cards = [...document.querySelectorAll('.card')];
+  const sections = [...document.querySelectorAll('.section')], empty = document.getElementById('empty');
+  q.addEventListener('input', () => {
+    const terms = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    document.body.classList.toggle('searching', terms.length > 0);
+    let shown = 0;
+    cards.forEach(c => { const ok = terms.every(t => c.dataset.search.includes(t)); c.hidden = !ok; shown += ok; });
+    sections.forEach(s => s.hidden = !s.querySelector('.card:not([hidden])'));
+    empty.style.display = shown ? 'none' : 'block';
+  });
+
+  const lb = document.getElementById('lb'), lbImg = lb.querySelector('img');
+  document.addEventListener('click', e => {
+    const b = e.target.closest('.shot');
+    if (b) { lbImg.src = b.dataset.full; lbImg.alt = b.querySelector('img').alt; lb.showModal(); }
+  });
+  lb.addEventListener('click', e => { if (e.target !== lbImg) lb.close(); });
+
+  const chips = [...document.querySelectorAll('.chips a')];
+  const io = new IntersectionObserver(es => es.forEach(en => {
+    if (en.isIntersecting) chips.forEach(a => a.classList.toggle('active', a.hash === '#' + en.target.id));
+  }), {rootMargin: '-40% 0px -55% 0px'});
+  document.querySelectorAll('.collection').forEach(c => io.observe(c));
+
+  const top = document.getElementById('totop');
+  addEventListener('scroll', () => top.classList.toggle('show', scrollY > 900), {passive: true});
+  top.addEventListener('click', () => scrollTo({top: 0}));
+
+  // Make sure every photo is loaded before printing from the browser.
+  addEventListener('beforeprint', () => document.querySelectorAll('img[loading]').forEach(i => i.loading = 'eager'));
+})();
+</script>
+</body>
+</html>

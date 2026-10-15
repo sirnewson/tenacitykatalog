@@ -1,0 +1,7 @@
+.ava/
+.claude/
+__pycache__/
+*.pyc
+images/*.zip
+images/**/*.mp4
+

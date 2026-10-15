@@ -1,0 +1,2019 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tenacity Locks Catalogue</title>
+<meta name="description" content="Tenacity Locks Ltd product catalogue 2026: internal and main-door locks, deadlocks, cylinders, door hardware and padlocks with prices in KSh.">
+<meta name="theme-color" content="#ffffff">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light;
+  --ink:#282627; --muted:#6b676a; --paper:#ffffff; --card:#ffffff; --line:#eee8ed;
+  --brand:#981491; --brand-deep:#74106f; --brand-soft:#fbf0fa; --gold:#b99a3b;
+  --offer:#c2410c; --offer-soft:#fff1e8; --ok:#15803d; --ok-soft:#ecfdf3;
+  --radius:14px; --shadow:0 1px 2px rgba(30,20,40,.05),0 6px 20px rgba(30,20,40,.06);
+  --font:"Inter","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth;scroll-padding-top:120px;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 var(--font);overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+
+/* ---------- top bar ---------- */
+.topbar{position:sticky;top:0;z-index:20;background:color-mix(in srgb,var(--paper) 92%,transparent);
+  backdrop-filter:saturate(1.4) blur(10px);border-bottom:1px solid var(--line)}
+.topbar-row{display:flex;align-items:center;gap:10px;padding:10px 16px;max-width:1180px;margin:0 auto}
+.wordmark{display:block;flex:0 0 auto;width:164px;text-decoration:none}
+.wordmark img{width:100%;height:auto}
+.search{flex:1;min-width:0;position:relative}
+.search input{width:100%;font:inherit;font-size:16px;padding:9px 12px 9px 36px;border-radius:999px;border:1px solid var(--line);
+  background:var(--card);color:var(--ink)}
+.search input:focus{outline:2px solid var(--brand);outline-offset:1px}
+.search svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);width:16px;height:16px;color:var(--muted)}
+.btn{display:inline-flex;align-items:center;gap:6px;font:600 13px var(--font);padding:9px 14px;border-radius:999px;
+  border:1px solid var(--brand);background:var(--brand);color:#fff;text-decoration:none;cursor:pointer;white-space:nowrap}
+.btn-ghost{background:transparent;color:var(--brand)}
+.btn svg{width:16px;height:16px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:0 16px 10px;max-width:1180px;margin:0 auto;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chips a{flex:none;text-decoration:none;font-size:13px;font-weight:500;padding:6px 12px;border-radius:999px;
+  border:1px solid var(--line);background:var(--card);color:var(--muted)}
+.chips a.active{background:var(--brand-soft);color:var(--brand);border-color:transparent}
+@media (max-width:640px){ .btn .lbl{display:none} .btn{padding:9px 10px} .wordmark{width:96px}.search input{padding-left:34px} }
+
+/* ---------- cover ---------- */
+.cover{position:relative;overflow:hidden;background:linear-gradient(135deg,#fff 0%,#fff 52%,#fbf0fa 100%);color:var(--ink);border-bottom:1px solid var(--line)}
+.cover-inner{display:grid;gap:24px;align-items:center;padding:40px 16px 32px;max-width:1180px;margin:0 auto}
+.cover .eyebrow{color:var(--brand)}
+.cover h1{font-size:clamp(38px,9vw,76px);line-height:.95;letter-spacing:-.03em;margin:8px 0 14px;font-weight:800}
+.cover h1 span{display:block;font-weight:500;font-size:.42em;letter-spacing:.02em;margin-top:12px;opacity:.9}
+.cover p{max-width:46ch;color:var(--muted);margin:0 0 20px}
+.cover-photo{background:#fff;border:1px solid var(--line);border-radius:18px;padding:10px;box-shadow:0 20px 50px rgba(93,20,89,.12);max-width:420px;justify-self:center}
+.cover-photo img{border-radius:10px}
+.cover-meta{display:flex;flex-wrap:wrap;gap:10px 22px;font-size:14px}
+.cover-meta b{display:block;font-size:20px}
+.cover .btn{background:var(--brand);color:#fff;border-color:var(--brand)}
+.cover .btn-ghost{background:#fff;color:var(--brand);border-color:var(--brand)}
+.cover-cta{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0}
+@media (min-width:860px){.cover-inner{grid-template-columns:1.15fr .85fr;padding:72px 16px}}
+
+.eyebrow{font-size:12px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin:0}
+
+/* ---------- intro pages ---------- */
+.page{padding:44px 0}
+.page h2{font-size:clamp(26px,5vw,36px);letter-spacing:-.02em;margin:6px 0 18px}
+.toc{display:grid;gap:18px}
+@media (min-width:760px){.toc{grid-template-columns:1fr 1fr}}
+.toc-col{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px}
+.toc-col h3{margin:0 0 8px;font-size:17px}
+.toc-col h3 span{display:block;font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold);margin-bottom:2px}
+.toc-col ol{list-style:none;margin:0;padding:0}
+.toc-col a{display:flex;gap:12px;align-items:baseline;padding:8px 0;border-top:1px solid var(--line);text-decoration:none}
+.toc-num{font-weight:800;color:var(--brand);font-variant-numeric:tabular-nums;width:22px}
+.toc-title{flex:1}
+.toc-title em{font-style:normal;font-size:12px;color:var(--muted);margin-left:6px;white-space:nowrap}
+.toc-count{font-size:12px;color:var(--muted)}
+.two{display:grid;gap:18px}
+@media (min-width:860px){.two{grid-template-columns:1.2fr 1fr}}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px}
+.panel h3{margin:0 0 10px;font-size:18px}
+.guide{width:100%;border-collapse:collapse;font-size:14px}
+.guide td{padding:9px 0;border-top:1px solid var(--line);vertical-align:top}
+.guide td:last-child{text-align:right;font-weight:700;color:var(--brand);padding-left:12px;white-space:nowrap}
+.ticks{list-style:none;margin:0;padding:0;font-size:14px}
+.ticks li{padding:8px 0 8px 26px;border-top:1px solid var(--line);position:relative}
+.ticks li::before{content:"";position:absolute;left:2px;top:13px;width:12px;height:7px;border:2px solid var(--brand);
+  border-top:0;border-right:0;transform:rotate(-45deg)}
+
+/* ---------- collections & sections ---------- */
+.collection-head{background:linear-gradient(120deg,var(--brand-soft),#fff);color:var(--ink);padding:40px 16px 34px;margin-top:20px;border-block:1px solid var(--line)}
+.collection-head>*{max-width:1148px;margin-left:auto;margin-right:auto}
+.collection-head h2{font-size:clamp(28px,6vw,48px);letter-spacing:-.025em;margin:6px auto 10px}
+.collection-head p:last-child{max-width:70ch;color:var(--muted);margin-bottom:0}
+.collection-head .eyebrow{color:var(--brand)}
+.section{max-width:1180px;margin:0 auto;padding:34px 16px 10px}
+.section-head{display:flex;gap:16px;margin-bottom:18px}
+.section-num{font-size:44px;font-weight:800;line-height:1;color:var(--brand);letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.section-text{flex:1;min-width:0}
+.cat{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;
+  background:var(--brand-soft);color:var(--brand);padding:3px 9px;border-radius:999px;margin-bottom:6px}
+.section h3{font-size:clamp(20px,4vw,26px);line-height:1.2;letter-spacing:-.015em;margin:0 0 8px}
+.lead{margin:0 0 10px;color:var(--muted);max-width:75ch}
+blockquote{margin:0 0 10px;padding:8px 12px;border-left:3px solid var(--gold);background:var(--card);
+  border-radius:0 8px 8px 0;font-size:14px;font-style:italic;max-width:75ch}
+blockquote span{display:block;font-style:normal;font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.facts{display:flex;flex-wrap:wrap;gap:6px;list-style:none;margin:0;padding:0}
+.facts li{font-size:12.5px;font-weight:600;padding:4px 10px;border-radius:8px;border:1px solid var(--line);background:var(--card)}
+
+.grid{display:grid;gap:12px;grid-template-columns:repeat(2,minmax(0,1fr))}
+@media (min-width:700px){.grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}}
+@media (min-width:1020px){.grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;
+  display:flex;flex-direction:column;box-shadow:var(--shadow)}
+.shot{position:relative;display:block;width:100%;padding:0;border:0;background:#fff;cursor:zoom-in;aspect-ratio:4/5}
+.shot img{width:100%;height:100%;object-fit:contain}
+.badges{position:absolute;left:6px;bottom:6px;display:flex;flex-wrap:wrap;gap:4px}
+.badge{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 7px;border-radius:6px;
+  background:#fff;color:var(--ink);box-shadow:0 1px 3px rgba(0,0,0,.18)}
+.badge-offer{background:#c2410c;color:#fff}
+.badge-g5{background:#fff;color:#14532d}
+.badge-life{background:#1f1b24;color:#f0d68a}
+.card-body{padding:10px 12px 12px;display:flex;flex-direction:column;flex:1}
+.model{font-size:15px;font-weight:800;margin:0;letter-spacing:-.01em}
+.name{font-size:13px;color:var(--muted);margin:1px 0 6px}
+.specs{list-style:none;margin:0 0 8px;padding:0;font-size:12px;color:var(--ink)}
+.specs li{padding-left:11px;position:relative;line-height:1.4;margin-bottom:2px}
+.specs li::before{content:"";position:absolute;left:0;top:.55em;width:5px;height:5px;border-radius:50%;background:var(--brand)}
+.price{margin:auto 0 0;font-size:18px;font-weight:800;color:var(--brand);font-variant-numeric:tabular-nums}
+.price s{font-size:12.5px;font-weight:500;color:var(--muted);margin-left:4px}
+.price-tbc{font-size:14px;color:var(--muted)}
+.variants{margin-top:auto;width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
+.variants th,.variants td{padding:3px 0;border-top:1px solid var(--line)}
+.variants th{text-align:left;font-weight:500;color:var(--muted)}
+.variants td{text-align:right;font-weight:800;color:var(--brand)}
+@media (max-width:420px){.card-body{padding:9px 10px 11px}.model{font-size:14px}.price{font-size:16px}}
+
+.empty{display:none;text-align:center;color:var(--muted);padding:60px 16px}
+body.searching .collection-head,body.searching .intro-pages,body.searching .cover{display:none}
+
+/* ---------- closing ---------- */
+.closing{background:linear-gradient(135deg,var(--brand-soft),#fff);color:var(--ink);border-top:1px solid var(--line);margin-top:40px;padding:54px 16px}
+.closing-inner{max-width:1180px;margin:0 auto}
+.closing h2{font-size:clamp(28px,6vw,46px);letter-spacing:-.025em;margin:6px 0 16px;max-width:18ch}
+.closing .phone{font-size:clamp(28px,7vw,44px);font-weight:800;text-decoration:none;display:inline-block;margin:6px 0}
+.closing .eyebrow{color:var(--brand)}
+.fine{font-size:12.5px;opacity:.82;max-width:80ch;padding-left:18px;margin-top:26px}
+
+/* ---------- lightbox ---------- */
+dialog.lightbox{border:0;padding:0;background:transparent;max-width:min(96vw,900px);max-height:94vh}
+dialog.lightbox::backdrop{background:rgba(12,8,16,.86)}
+dialog.lightbox img{max-height:88vh;width:auto;margin:auto;border-radius:10px;background:#fff}
+dialog.lightbox button{position:fixed;top:12px;right:12px;width:44px;height:44px;border-radius:50%;border:0;
+  background:#fff;color:#000;font-size:24px;cursor:pointer}
+.totop{position:fixed;right:16px;bottom:16px;z-index:15;width:44px;height:44px;border-radius:50%;border:0;
+  background:var(--brand);color:#fff;font-size:20px;box-shadow:var(--shadow);cursor:pointer;opacity:0;pointer-events:none;transition:opacity .2s}
+.totop.show{opacity:1;pointer-events:auto}
+
+/* ---------- print / PDF (A4) ---------- */
+@page{size:A4;margin:13mm 12mm 15mm;
+  @bottom-left{content:"Tenacity Locks Ltd · Product Catalogue 2026";font:8pt var(--font);color:#777}
+  @bottom-right{content:counter(page);font:8pt var(--font);color:#777}}
+@page cover{margin:0;@bottom-left{content:none}@bottom-right{content:none}}
+@media print{
+  :root{--ink:#282627;--muted:#5d5866;--paper:#fff;--card:#fff;--line:#e3dde8;--brand:#981491;--brand-deep:#74106f;--brand-soft:#fbf0fa;--shadow:none}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  html{scroll-behavior:auto}
+  body{font-size:9.5pt;background:#fff}
+  .topbar,.totop,dialog,.cover-cta,.empty{display:none!important}
+  .cover{page:cover;height:297mm;display:flex;align-items:center;break-after:page}
+  .cover-inner{grid-template-columns:1.1fr .9fr;padding:0 16mm;width:100%}
+  .cover h1{font-size:54pt}
+  .page{padding:0;break-after:page}
+  .page h2{font-size:22pt;margin:4px 0 10px}
+  .wrap{padding:0;max-width:none}
+  .toc{grid-template-columns:1fr 1fr;gap:10px}
+  .toc-col{padding:10px 12px;break-inside:avoid}
+  .toc-col a{padding:5px 0;font-size:9pt}
+  .two{grid-template-columns:1.2fr 1fr;gap:10px}
+  .panel{padding:12px 14px;break-inside:avoid}
+  .collection{break-before:page}
+  .collection-head{margin:0;padding:14mm 10mm 10mm;border-radius:10px}
+  .collection-head h2{font-size:28pt}
+  .section{padding:8mm 0 0;max-width:none}
+  .section-head{break-inside:avoid;break-after:avoid;margin-bottom:10px}
+  .section-num{font-size:30pt}
+  .section h3{font-size:15pt}
+  .lead,blockquote{font-size:9pt}
+  .grid{grid-template-columns:repeat(4,1fr);gap:8px}
+  .card{break-inside:avoid;border-radius:9px}
+  .shot{aspect-ratio:4/4.6}
+  .model{font-size:10.5pt}.name{font-size:8.5pt}.specs{font-size:7.8pt}.price{font-size:12pt}
+  .variants{font-size:8pt}
+  .badge{font-size:6.5pt}
+  .closing{break-before:page;margin:0;border-radius:10px;padding:20mm 14mm}
+}
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="topbar-row">
+    <a class="wordmark" href="#top" aria-label="Tenacity Locks home"><img src="assets/tenacity-logo.png" alt="Tenacity Locks Ltd"></a>
+    <label class="search">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      <input id="q" type="search" placeholder="Search model, finish, price…" aria-label="Search products" autocomplete="off">
+    </label>
+    <a class="btn btn-ghost" href="Tenacity-Catalogue-2026-WhatsApp.pdf" download title="Download PDF">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14"/></svg><span class="lbl">PDF</span></a>
+    <a class="btn" href="tel:+254711776688" title="Call 0711 77 66 88">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg><span class="lbl">Call</span></a>
+  </div>
+  <nav class="chips" aria-label="Collections"><a href="#cA">Internal Door Locks</a><a href="#cB">Main Door &amp; Steel Door Locks</a><a href="#cC">Deadlocks</a><a href="#cD">Door Hardware &amp; Accessories</a><a href="#cE">Padlocks</a></nav>
+</header>
+
+<main id="top">
+<section class="cover">
+  <div class="cover-inner">
+    <div>
+      <p class="eyebrow">Tenacity Locks Ltd</p>
+      <h1>Product Catalogue 2026<span>Door locks · Deadlocks · Cylinders · Door hardware · Padlocks</span></h1>
+      <p>118 products in 18 sections, from budget internal locks to premium SUS 304 stainless steel main-door locks. Each product is shown with its photo, key details and price.</p>
+      <div class="cover-meta">
+        <div><b>0711 77 66 88</b>Call to order</div>
+        <div><b>Along Kijabe Street</b>Find us</div>
+      </div>
+      <div class="cover-cta">
+        <a class="btn" href="#contents">Browse catalogue</a>
+        <a class="btn btn-ghost" href="Tenacity-Catalogue-2026-WhatsApp.pdf" download>Download PDF</a>
+      </div>
+    </div>
+    <div class="cover-photo"><img src="assets/img/T059.jpg" alt="Tenacity Big F6 SUS 304 stainless steel mortice lock"></div>
+  </div>
+</section>
+
+<div class="intro-pages">
+<section class="page wrap" id="contents">
+  <p class="eyebrow">Contents</p>
+  <h2>Five collections, 18 sections</h2>
+  <div class="toc"><div class="toc-col"><h3><span>Collection A</span>Internal Door Locks</h3><ol><li><a href="#s01"><span class="toc-num">01</span><span class="toc-title">TM53 Series — Entry-Level Internal Door Locks</span><span class="toc-count">8</span></a></li><li><a href="#s02"><span class="toc-num">02</span><span class="toc-title">Premium Quality Internal Door Locks</span><span class="toc-count">10</span></a></li></ol></div><div class="toc-col"><h3><span>Collection B</span>Main Door &amp; Steel Door Locks</h3><ol><li><a href="#s03"><span class="toc-num">03</span><span class="toc-title">Tenacity Entry-Level Locks <em>Category 1</em></span><span class="toc-count">3</span></a></li><li><a href="#s04"><span class="toc-num">04</span><span class="toc-title">Tenacity Single-Pin with Normal Keys <em>Category 2</em></span><span class="toc-count">7</span></a></li><li><a href="#s05"><span class="toc-num">05</span><span class="toc-title">Tenacity 3-Pin with Dimple Keys <em>Category 3</em></span><span class="toc-count">7</span></a></li><li><a href="#s06"><span class="toc-num">06</span><span class="toc-title">F6 Series <em>Category 4</em></span><span class="toc-count">3</span></a></li><li><a href="#s07"><span class="toc-num">07</span><span class="toc-title">Tenacity Rose Handles with 4-Pin &amp; Non-Duplicatable Keys <em>Category 5</em></span><span class="toc-count">5</span></a></li><li><a href="#s08"><span class="toc-num">08</span><span class="toc-title">Tenacity 4-Pin with Non-Duplicatable Keys <em>Category 6</em></span><span class="toc-count">14</span></a></li><li><a href="#s09"><span class="toc-num">09</span><span class="toc-title">Premium SUS 304 Stainless Steel Mortice Lock <em>Category 7</em></span><span class="toc-count">5</span></a></li></ol></div><div class="toc-col"><h3><span>Collection C</span>Deadlocks</h3><ol><li><a href="#s10"><span class="toc-num">10</span><span class="toc-title">Non-Latching Deadlocks</span><span class="toc-count">3</span></a></li><li><a href="#s11"><span class="toc-num">11</span><span class="toc-title">Auto-Latching Deadlocks</span><span class="toc-count">7</span></a></li><li><a href="#s12"><span class="toc-num">12</span><span class="toc-title">Ball-Catch Deadlocks</span><span class="toc-count">1</span></a></li></ol></div><div class="toc-col"><h3><span>Collection D</span>Door Hardware &amp; Accessories</h3><ol><li><a href="#s13"><span class="toc-num">13</span><span class="toc-title">Door Pullers</span><span class="toc-count">8</span></a></li><li><a href="#s14"><span class="toc-num">14</span><span class="toc-title">Bathroom Sets</span><span class="toc-count">8</span></a></li><li><a href="#s15"><span class="toc-num">15</span><span class="toc-title">Cylinders</span><span class="toc-count">8</span></a></li></ol></div><div class="toc-col"><h3><span>Collection E</span>Padlocks</h3><ol><li><a href="#s16"><span class="toc-num">16</span><span class="toc-title">Tri-Circle Padlocks</span><span class="toc-count">4</span></a></li><li><a href="#s17"><span class="toc-num">17</span><span class="toc-title">Mindy Padlocks</span><span class="toc-count">6</span></a></li><li><a href="#s18"><span class="toc-num">18</span><span class="toc-title">Viro Padlocks</span><span class="toc-count">11</span></a></li></ol></div></div>
+</section>
+
+<section class="page wrap" id="guide">
+  <p class="eyebrow">Before you choose</p>
+  <h2>Pick the right lock for the door</h2>
+  <div class="two">
+    <div class="panel">
+      <h3>Which section fits your door?</h3>
+      <table class="guide"><tbody><tr><td>Bedrooms, offices and interior doors</td><td>01, 02</td></tr><tr><td>Bathrooms and toilets</td><td>01 (keyless TM53)</td></tr><tr><td>Light-duty steel or light-duty solid wooden doors</td><td>03 — Category 1</td></tr><tr><td>Steel doors and heavy-duty wooden doors</td><td>04–08 — Categories 2 to 6</td></tr><tr><td>Highest-spec main door, stainless steel lock case</td><td>09 — Category 7</td></tr><tr><td>Extra locking point on any door</td><td>10–12 Deadlocks</td></tr><tr><td>Wider doors or replacement cylinders</td><td>15 Cylinders</td></tr><tr><td>Gates, stores and shutters</td><td>16–18 Padlocks</td></tr></tbody></table>
+    </div>
+    <div class="panel">
+      <h3>Guarantees &amp; cylinder sizes</h3>
+      <ul class="ticks"><li>All standard locks in the main-door range come with a <b>5-year guarantee</b>.</li><li>Premium SUS 304 locks (Category 7) carry a <b>lifetime guarantee</b>, subject to supplier terms.</li><li>Complete lock units include a standard <b>70 mm cylinder</b>.</li><li>For doors wider than <b>2 inches</b>, longer cylinders in <b>80 mm, 90 mm or 100 mm</b> are sold separately (see section 15).</li><li>The included 70 mm cylinder <b>cannot be exchanged or traded in</b> for a longer size.</li></ul>
+    </div>
+  </div>
+</section>
+</div>
+
+
+  <div class="collection" id="cA">
+    <header class="collection-head">
+      <p class="eyebrow">Collection A</p>
+      <h2>Internal Door Locks</h2>
+      <p>Locks for bedrooms, bathrooms and other interior doors, from budget-friendly offers to premium rose-handle designs.</p>
+    </header>
+    <section class="section" id="s01">
+      <header class="section-head">
+        <div class="section-num">01</div>
+        <div class="section-text">
+          
+          <h3>TM53 Series — Entry-Level Internal Door Locks</h3>
+          <p class="lead">Practical, budget-friendly door locks for interior spaces, available in bathroom/privacy (keyless) and keyed-access configurations, in four finishes.</p>
+          <blockquote><span>Supplier note</span>“For internal door locks on OFFER (with keys and bathroom options) we have the TM53 series entry level door locks.”</blockquote>
+          <ul class="facts"><li>Keyless bathroom or keys both sides</li><li>Finishes: MAB, MAC, MCF, MSN</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="tm53 mab keyless bathroom lock mab  bathroom / privacy lock inside thumb-turn, no keys 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.39.jpeg" aria-label="Enlarge photo of TM53 MAB">
+          <img src="assets/img/T001.jpg" alt="Tenacity TM53 MAB — Keyless bathroom lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MAB</h4>
+          <p class="name">Keyless bathroom lock</p>
+          <ul class="specs"><li>Bathroom / privacy lock</li><li>Inside thumb-turn, no keys</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="tm53 mab lock with keys both sides mab  key operation from both sides 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.40.jpeg" aria-label="Enlarge photo of TM53 MAB">
+          <img src="assets/img/T002.jpg" alt="Tenacity TM53 MAB — Lock with keys both sides" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MAB</h4>
+          <p class="name">Lock with keys both sides</p>
+          <ul class="specs"><li>Key operation from both sides</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="tm53 mac keyless bathroom lock mac  bathroom / privacy lock inside thumb-turn, no keys 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.40%20(1).jpeg" aria-label="Enlarge photo of TM53 MAC">
+          <img src="assets/img/T003.jpg" alt="Tenacity TM53 MAC — Keyless bathroom lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MAC</h4>
+          <p class="name">Keyless bathroom lock</p>
+          <ul class="specs"><li>Bathroom / privacy lock</li><li>Inside thumb-turn, no keys</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="tm53 mac lock with keys both sides mac  key operation from both sides 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.40%20(2).jpeg" aria-label="Enlarge photo of TM53 MAC">
+          <img src="assets/img/T004.jpg" alt="Tenacity TM53 MAC — Lock with keys both sides" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MAC</h4>
+          <p class="name">Lock with keys both sides</p>
+          <ul class="specs"><li>Key operation from both sides</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="tm53 mcf keyless bathroom lock mcf  bathroom / privacy lock inside thumb-turn, no keys 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.41.jpeg" aria-label="Enlarge photo of TM53 MCF">
+          <img src="assets/img/T005.jpg" alt="Tenacity TM53 MCF — Keyless bathroom lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MCF</h4>
+          <p class="name">Keyless bathroom lock</p>
+          <ul class="specs"><li>Bathroom / privacy lock</li><li>Inside thumb-turn, no keys</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="tm53 mcf lock with keys both sides mcf  key operation from both sides 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.41%20(1).jpeg" aria-label="Enlarge photo of TM53 MCF">
+          <img src="assets/img/T006.jpg" alt="Tenacity TM53 MCF — Lock with keys both sides" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MCF</h4>
+          <p class="name">Lock with keys both sides</p>
+          <ul class="specs"><li>Key operation from both sides</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="tm53 msn keyless bathroom lock msn  bathroom / privacy lock inside thumb-turn, no keys 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.41%20(2).jpeg" aria-label="Enlarge photo of TM53 MSN">
+          <img src="assets/img/T007.jpg" alt="Tenacity TM53 MSN — Keyless bathroom lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MSN</h4>
+          <p class="name">Keyless bathroom lock</p>
+          <ul class="specs"><li>Bathroom / privacy lock</li><li>Inside thumb-turn, no keys</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="tm53 msn lock with keys both sides msn  key operation from both sides 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.23.41%20(3).jpeg" aria-label="Enlarge photo of TM53 MSN">
+          <img src="assets/img/T008.jpg" alt="Tenacity TM53 MSN — Lock with keys both sides" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TM53 MSN</h4>
+          <p class="name">Lock with keys both sides</p>
+          <ul class="specs"><li>Key operation from both sides</li></ul>
+          <p class="price">KSh 1,500 <s>KSh 2,000</s></p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s02">
+      <header class="section-head">
+        <div class="section-num">02</div>
+        <div class="section-text">
+          
+          <h3>Premium Quality Internal Door Locks</h3>
+          <p class="lead">A selection of premium-quality internal door hardware with refined finishes and different access configurations: an executive knob-and-key lock and single-pin or 3-pin locks with modern rose handles.</p>
+          <blockquote><span>Supplier note</span>“We also have the Premium Quality internal door locks as per the below photos.”</blockquote>
+          <ul class="facts"><li>Rose handles S01–S04</li><li>Black or SN finish</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="t189 gp executive quality lock gp  outside key, knob inside 4500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.20.jpeg" aria-label="Enlarge photo of T189 GP">
+          <img src="assets/img/T009.jpg" alt="Tenacity T189 GP — Executive quality lock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">T189 GP</h4>
+          <p class="name">Executive quality lock</p>
+          <ul class="specs"><li>Outside key, knob inside</li></ul>
+          <p class="price">KSh 4,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="s01 black single-pin with s01 rose handles black  5 normal brass keys s01 rose handles, black 4000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.20%20(1).jpeg" aria-label="Enlarge photo of S01 Black">
+          <img src="assets/img/T010.jpg" alt="Tenacity S01 Black — Single-pin with S01 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S01 Black</h4>
+          <p class="name">Single-pin with S01 rose handles</p>
+          <ul class="specs"><li>5 normal brass keys</li><li>S01 rose handles, Black</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s02 black single-pin with s02 rose handles black  5 normal brass keys s02 rose handles, black 4000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21.jpeg" aria-label="Enlarge photo of S02 Black">
+          <img src="assets/img/T011.jpg" alt="Tenacity S02 Black — Single-pin with S02 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S02 Black</h4>
+          <p class="name">Single-pin with S02 rose handles</p>
+          <ul class="specs"><li>5 normal brass keys</li><li>S02 rose handles, Black</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s02 sn single-pin with s02 rose handles sn  5 normal brass keys s02 rose handles, sn 4000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21%20(1).jpeg" aria-label="Enlarge photo of S02 SN">
+          <img src="assets/img/T012.jpg" alt="Tenacity S02 SN — Single-pin with S02 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S02 SN</h4>
+          <p class="name">Single-pin with S02 rose handles</p>
+          <ul class="specs"><li>5 normal brass keys</li><li>S02 rose handles, SN</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s03 sn single-pin with s03 rose handles sn  5 normal brass keys s03 rose handles, sn 4000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21%20(2).jpeg" aria-label="Enlarge photo of S03 SN">
+          <img src="assets/img/T013.jpg" alt="Tenacity S03 SN — Single-pin with S03 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S03 SN</h4>
+          <p class="name">Single-pin with S03 rose handles</p>
+          <ul class="specs"><li>5 normal brass keys</li><li>S03 rose handles, SN</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s04 sn single-pin with s04 rose handles sn  5 normal brass keys s04 rose handles, sn 4000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21%20(3).jpeg" aria-label="Enlarge photo of S04 SN">
+          <img src="assets/img/T014.jpg" alt="Tenacity S04 SN — Single-pin with S04 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S04 SN</h4>
+          <p class="name">Single-pin with S04 rose handles</p>
+          <ul class="specs"><li>5 normal brass keys</li><li>S04 rose handles, SN</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s02 black 3-pin 3-pin with s02 rose handles black  5 dimple brass keys s02 rose handles, black 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21%20(4).jpeg" aria-label="Enlarge photo of S02 Black 3-Pin">
+          <img src="assets/img/T015.jpg" alt="Tenacity S02 Black 3-Pin — 3-pin with S02 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S02 Black 3-Pin</h4>
+          <p class="name">3-pin with S02 rose handles</p>
+          <ul class="specs"><li>5 dimple brass keys</li><li>S02 rose handles, Black</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s02 sn 3-pin 3-pin with s02 rose handles sn  5 dimple brass keys s02 rose handles, sn 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21%20(5).jpeg" aria-label="Enlarge photo of S02 SN 3-Pin">
+          <img src="assets/img/T016.jpg" alt="Tenacity S02 SN 3-Pin — 3-pin with S02 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S02 SN 3-Pin</h4>
+          <p class="name">3-pin with S02 rose handles</p>
+          <ul class="specs"><li>5 dimple brass keys</li><li>S02 rose handles, SN</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s03 sn 3-pin 3-pin with s03 rose handles sn  5 dimple brass keys s03 rose handles, sn 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21%20(6).jpeg" aria-label="Enlarge photo of S03 SN 3-Pin">
+          <img src="assets/img/T017.jpg" alt="Tenacity S03 SN 3-Pin — 3-pin with S03 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S03 SN 3-Pin</h4>
+          <p class="name">3-pin with S03 rose handles</p>
+          <ul class="specs"><li>5 dimple brass keys</li><li>S03 rose handles, SN</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s04 sn 3-pin 3-pin with s04 rose handles sn  5 dimple brass keys s04 rose handles, sn 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.26.21%20(7).jpeg" aria-label="Enlarge photo of S04 SN 3-Pin">
+          <img src="assets/img/T018.jpg" alt="Tenacity S04 SN 3-Pin — 3-pin with S04 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S04 SN 3-Pin</h4>
+          <p class="name">3-pin with S04 rose handles</p>
+          <ul class="specs"><li>5 dimple brass keys</li><li>S04 rose handles, SN</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+  </div>
+  <div class="collection" id="cB">
+    <header class="collection-head">
+      <p class="eyebrow">Collection B</p>
+      <h2>Main Door &amp; Steel Door Locks</h2>
+      <p>Tenacity offers main-door and steel-door locks ranging from affordable entry-level units to heavy-duty, multiple-bolt and premium stainless steel security systems. Choose the category that matches the door material, use case and required key configuration.</p>
+    </header>
+    <section class="section" id="s03">
+      <header class="section-head">
+        <div class="section-num">03</div>
+        <div class="section-text">
+          <span class="cat">Supplier Category 1</span>
+          <h3>Tenacity Entry-Level Locks</h3>
+          <p class="lead">An economical lock option with three normal brass keys, intended for light-duty steel and light-duty solid wooden doors.</p>
+          <blockquote><span>Supplier note</span>“They come with 3 normal brass keys and are ideal for both Light Duty Steel and Light Duty Solid wooden doors.”</blockquote>
+          <ul class="facts"><li>3 normal brass keys</li><li>Light-duty steel &amp; solid wood doors</li><li>5-year guarantee</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="tb68 mac single-pin entry-level lock mac category 1 pure brass 3 normal keys 4000">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.27.31.jpeg" aria-label="Enlarge photo of TB68 MAC">
+          <img src="assets/img/T019.jpg" alt="Tenacity TB68 MAC — Single-pin entry-level lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TB68 MAC</h4>
+          <p class="name">Single-pin entry-level lock</p>
+          <ul class="specs"><li>Pure brass</li><li>3 normal keys</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="tb68 mcf single-pin entry-level lock mcf category 1 pure brass 3 normal keys 4000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.32.jpeg" aria-label="Enlarge photo of TB68 MCF">
+          <img src="assets/img/T020.jpg" alt="Tenacity TB68 MCF — Single-pin entry-level lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TB68 MCF</h4>
+          <p class="name">Single-pin entry-level lock</p>
+          <ul class="specs"><li>Pure brass</li><li>3 normal keys</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="tb68 sncp single-pin entry-level lock sncp category 1 pure brass 3 normal keys 4000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.32%20(1).jpeg" aria-label="Enlarge photo of TB68 SNCP">
+          <img src="assets/img/T021.jpg" alt="Tenacity TB68 SNCP — Single-pin entry-level lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">TB68 SNCP</h4>
+          <p class="name">Single-pin entry-level lock</p>
+          <ul class="specs"><li>Pure brass</li><li>3 normal keys</li></ul>
+          <p class="price">KSh 4,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s04">
+      <header class="section-head">
+        <div class="section-num">04</div>
+        <div class="section-text">
+          <span class="cat">Supplier Category 2</span>
+          <h3>Tenacity Single-Pin with Normal Keys</h3>
+          <p class="lead">Single-bolt locks with a fully solid zinc bolt and premium Tenacity handles, built for steel doors and heavy-duty wooden doors.</p>
+          <blockquote><span>Supplier note</span>“They come with 3 brass normal keys, 1 fully SOLID ZINC bolt and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.”</blockquote>
+          <ul class="facts"><li>3 normal brass keys</li><li>1 fully solid zinc bolt</li><li>Premium Tenacity handles</li><li>Steel &amp; heavy-duty wood doors</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="51 nbgp single-pin lock, normal keys nbgp category 2 pure brass normal keys 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.53.jpeg" aria-label="Enlarge photo of 51 NBGP">
+          <img src="assets/img/T022.jpg" alt="Tenacity 51 NBGP — Single-pin lock, normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">51 NBGP</h4>
+          <p class="name">Single-pin lock, normal keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Normal keys</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 abb single-pin lock, normal keys abb category 2 pure brass normal keys 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.53%20(1).jpeg" aria-label="Enlarge photo of 90 ABB">
+          <img src="assets/img/T023.jpg" alt="Tenacity 90 ABB — Single-pin lock, normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 ABB</h4>
+          <p class="name">Single-pin lock, normal keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Normal keys</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 acc single-pin lock, normal keys acc category 2 pure brass normal keys 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.53%20(2).jpeg" aria-label="Enlarge photo of 90 ACC">
+          <img src="assets/img/T024.jpg" alt="Tenacity 90 ACC — Single-pin lock, normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 ACC</h4>
+          <p class="name">Single-pin lock, normal keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Normal keys</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 nbgp single-pin lock, normal keys nbgp category 2 pure brass normal keys 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.53%20(3).jpeg" aria-label="Enlarge photo of 90 NBGP">
+          <img src="assets/img/T025.jpg" alt="Tenacity 90 NBGP — Single-pin lock, normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 NBGP</h4>
+          <p class="name">Single-pin lock, normal keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Normal keys</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="259 mac single-pin lock, normal keys mac category 2 pure brass normal keys 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.53%20(4).jpeg" aria-label="Enlarge photo of 259 MAC">
+          <img src="assets/img/T026.jpg" alt="Tenacity 259 MAC — Single-pin lock, normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">259 MAC</h4>
+          <p class="name">Single-pin lock, normal keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Normal keys</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 mab single-pin lock, normal keys mab category 2 pure brass normal keys 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.54.jpeg" aria-label="Enlarge photo of 510 MAB">
+          <img src="assets/img/T027.jpg" alt="Tenacity 510 MAB — Single-pin lock, normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 MAB</h4>
+          <p class="name">Single-pin lock, normal keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Normal keys</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 mac single-pin lock, normal keys mac category 2 pure brass normal keys 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.27.54%20(1).jpeg" aria-label="Enlarge photo of 510 MAC">
+          <img src="assets/img/T028.jpg" alt="Tenacity 510 MAC — Single-pin lock, normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 MAC</h4>
+          <p class="name">Single-pin lock, normal keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Normal keys</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s05">
+      <header class="section-head">
+        <div class="section-num">05</div>
+        <div class="section-text">
+          <span class="cat">Supplier Category 3</span>
+          <h3>Tenacity 3-Pin with Dimple Keys</h3>
+          <p class="lead">Three fully solid brass bolts and five brass dimple keys for a stronger locking point on steel and heavy-duty wooden doors.</p>
+          <blockquote><span>Supplier note</span>“They come with 5 brass dimple keys, 3 fully solid brass bolts and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.”</blockquote>
+          <ul class="facts"><li>5 brass dimple keys</li><li>3 fully solid brass bolts</li><li>Premium Tenacity handles</li><li>Steel &amp; heavy-duty wood doors</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="51 nbgp 3-pin lock, dimple keys nbgp category 3 pure brass dimple keys 6000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.28.14.jpeg" aria-label="Enlarge photo of 51 NBGP">
+          <img src="assets/img/T029.jpg" alt="Tenacity 51 NBGP — 3-pin lock, dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">51 NBGP</h4>
+          <p class="name">3-pin lock, dimple keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Dimple keys</li></ul>
+          <p class="price">KSh 6,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="62 acc 3-pin lock, dimple keys acc category 3 pure brass dimple keys 6000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.28.14%20(1).jpeg" aria-label="Enlarge photo of 62 ACC">
+          <img src="assets/img/T030.jpg" alt="Tenacity 62 ACC — 3-pin lock, dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">62 ACC</h4>
+          <p class="name">3-pin lock, dimple keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Dimple keys</li></ul>
+          <p class="price">KSh 6,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 abb 3-pin lock, dimple keys abb category 3 pure brass dimple keys 6000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.28.14%20(2).jpeg" aria-label="Enlarge photo of 90 ABB">
+          <img src="assets/img/T031.jpg" alt="Tenacity 90 ABB — 3-pin lock, dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 ABB</h4>
+          <p class="name">3-pin lock, dimple keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Dimple keys</li></ul>
+          <p class="price">KSh 6,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 nbgp 3-pin lock, dimple keys nbgp category 3 pure brass dimple keys 6000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.28.14%20(3).jpeg" aria-label="Enlarge photo of 90 NBGP">
+          <img src="assets/img/T032.jpg" alt="Tenacity 90 NBGP — 3-pin lock, dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 NBGP</h4>
+          <p class="name">3-pin lock, dimple keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Dimple keys</li></ul>
+          <p class="price">KSh 6,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 black 3-pin lock, dimple keys black category 3 pure brass dimple keys 6000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.28.14%20(4).jpeg" aria-label="Enlarge photo of 510 Black">
+          <img src="assets/img/T033.jpg" alt="Tenacity 510 Black — 3-pin lock, dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 Black</h4>
+          <p class="name">3-pin lock, dimple keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Dimple keys</li></ul>
+          <p class="price">KSh 6,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 mab 3-pin lock, dimple keys mab category 3 pure brass dimple keys 6000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.28.14%20(5).jpeg" aria-label="Enlarge photo of 510 MAB">
+          <img src="assets/img/T034.jpg" alt="Tenacity 510 MAB — 3-pin lock, dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 MAB</h4>
+          <p class="name">3-pin lock, dimple keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Dimple keys</li></ul>
+          <p class="price">KSh 6,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 mac 3-pin lock, dimple keys mac category 3 pure brass dimple keys 6000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.28.14%20(6).jpeg" aria-label="Enlarge photo of 510 MAC">
+          <img src="assets/img/T035.jpg" alt="Tenacity 510 MAC — 3-pin lock, dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 MAC</h4>
+          <p class="name">3-pin lock, dimple keys</p>
+          <ul class="specs"><li>Pure brass</li><li>Dimple keys</li></ul>
+          <p class="price">KSh 6,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s06">
+      <header class="section-head">
+        <div class="section-num">06</div>
+        <div class="section-text">
+          <span class="cat">Supplier Category 4</span>
+          <h3>F6 Series</h3>
+          <p class="lead">Medium-sized, heavy-duty locks with steel 3-pin bolts and five brass keys described by the supplier as non-duplicatable.</p>
+          <blockquote><span>Supplier note</span>“They are medium sized locks with steel 3-PIN bolts and 5 non-duplicatable keys made from brass. They are heavy duty and ideal for both Steel doors and Heavy-duty wooden door locks.”</blockquote>
+          <ul class="facts"><li>Medium size</li><li>Steel 3-pin bolts</li><li>5 non-duplicatable* brass keys</li><li>Steel &amp; heavy-duty wood doors</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="f6 black medium-sized 3-pin, heavy duty black category 4 medium sized 3-pin heavy duty non-duplicatable keys* 6500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.28.33.jpeg" aria-label="Enlarge photo of F6 Black">
+          <img src="assets/img/T036.jpg" alt="Tenacity F6 Black — Medium-sized 3-pin, heavy duty" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">F6 Black</h4>
+          <p class="name">Medium-sized 3-pin, heavy duty</p>
+          <ul class="specs"><li>Medium sized</li><li>3-pin heavy duty</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 6,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="f6 mab medium-sized 3-pin, heavy duty mab category 4 medium sized 3-pin heavy duty non-duplicatable keys* 6500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.28.33%20(1).jpeg" aria-label="Enlarge photo of F6 MAB">
+          <img src="assets/img/T037.jpg" alt="Tenacity F6 MAB — Medium-sized 3-pin, heavy duty" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">F6 MAB</h4>
+          <p class="name">Medium-sized 3-pin, heavy duty</p>
+          <ul class="specs"><li>Medium sized</li><li>3-pin heavy duty</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 6,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="f6 mcf medium-sized 3-pin, heavy duty mcf category 4 medium sized 3-pin heavy duty non-duplicatable keys* 6500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.28.33%20(2).jpeg" aria-label="Enlarge photo of F6 MCF">
+          <img src="assets/img/T038.jpg" alt="Tenacity F6 MCF — Medium-sized 3-pin, heavy duty" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">F6 MCF</h4>
+          <p class="name">Medium-sized 3-pin, heavy duty</p>
+          <ul class="specs"><li>Medium sized</li><li>3-pin heavy duty</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 6,500</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s07">
+      <header class="section-head">
+        <div class="section-num">07</div>
+        <div class="section-text">
+          <span class="cat">Supplier Category 5</span>
+          <h3>Tenacity Rose Handles with 4-Pin &amp; Non-Duplicatable Keys</h3>
+          <p class="lead">Four solid zinc bolts paired with modern rose handles — a clean, contemporary look with main-door strength.</p>
+          <blockquote><span>Supplier note</span>“They come with 5 brass non-duplicatable keys, 4 fully solid zinc bolts and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.”</blockquote>
+          <ul class="facts"><li>5 non-duplicatable* brass keys</li><li>4 fully solid zinc bolts</li><li>Rose handles</li><li>Steel &amp; heavy-duty wood doors</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="s01 black 4-pin 4-pin with s01 rose handles black category 5 5 non-duplicatable keys* s01 rose handles, black 7000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.10.jpeg" aria-label="Enlarge photo of S01 Black 4-Pin">
+          <img src="assets/img/T039.jpg" alt="Tenacity S01 Black 4-Pin — 4-pin with S01 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S01 Black 4-Pin</h4>
+          <p class="name">4-pin with S01 rose handles</p>
+          <ul class="specs"><li>5 non-duplicatable keys*</li><li>S01 rose handles, Black</li></ul>
+          <p class="price">KSh 7,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s02 black 4-pin 4-pin with s02 rose handles black category 5 5 non-duplicatable keys* s02 rose handles, black 7000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.10%20(1).jpeg" aria-label="Enlarge photo of S02 Black 4-Pin">
+          <img src="assets/img/T040.jpg" alt="Tenacity S02 Black 4-Pin — 4-pin with S02 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S02 Black 4-Pin</h4>
+          <p class="name">4-pin with S02 rose handles</p>
+          <ul class="specs"><li>5 non-duplicatable keys*</li><li>S02 rose handles, Black</li></ul>
+          <p class="price">KSh 7,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s02 sn 4-pin 4-pin with s02 rose handles sn category 5 5 non-duplicatable keys* s02 rose handles, sn 7000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.10%20(2).jpeg" aria-label="Enlarge photo of S02 SN 4-Pin">
+          <img src="assets/img/T041.jpg" alt="Tenacity S02 SN 4-Pin — 4-pin with S02 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S02 SN 4-Pin</h4>
+          <p class="name">4-pin with S02 rose handles</p>
+          <ul class="specs"><li>5 non-duplicatable keys*</li><li>S02 rose handles, SN</li></ul>
+          <p class="price">KSh 7,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s03 sn 4-pin 4-pin with s03 rose handles sn category 5 5 non-duplicatable keys* s03 rose handles, sn 7000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.10%20(3).jpeg" aria-label="Enlarge photo of S03 SN 4-Pin">
+          <img src="assets/img/T042.jpg" alt="Tenacity S03 SN 4-Pin — 4-pin with S03 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S03 SN 4-Pin</h4>
+          <p class="name">4-pin with S03 rose handles</p>
+          <ul class="specs"><li>5 non-duplicatable keys*</li><li>S03 rose handles, SN</li></ul>
+          <p class="price">KSh 7,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="s04 sn 4-pin 4-pin with s04 rose handles sn category 5 5 non-duplicatable keys* s04 rose handles, sn 7000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.10%20(4).jpeg" aria-label="Enlarge photo of S04 SN 4-Pin">
+          <img src="assets/img/T043.jpg" alt="Tenacity S04 SN 4-Pin — 4-pin with S04 rose handles" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S04 SN 4-Pin</h4>
+          <p class="name">4-pin with S04 rose handles</p>
+          <ul class="specs"><li>5 non-duplicatable keys*</li><li>S04 rose handles, SN</li></ul>
+          <p class="price">KSh 7,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s08">
+      <header class="section-head">
+        <div class="section-num">08</div>
+        <div class="section-text">
+          <span class="cat">Supplier Category 6</span>
+          <h3>Tenacity 4-Pin with Non-Duplicatable Keys</h3>
+          <p class="lead">Four-bolt locks with a full brass 70 mm cylinder and 2-in-1 double-serrated keys, in a wide choice of handle styles and finishes.</p>
+          <blockquote><span>Supplier note</span>“They come with 5 brass non-duplicatable keys, 4 fully solid zinc bolts and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.”</blockquote>
+          <ul class="facts"><li>5 non-duplicatable* brass keys</li><li>4 fully solid bolts</li><li>Full brass 70 mm cylinder</li><li>Steel &amp; heavy-duty wood doors</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="51 nbgp 4-solid-pin lock nbgp category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 8500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.35.jpeg" aria-label="Enlarge photo of 51 NBGP">
+          <img src="assets/img/T044.jpg" alt="Tenacity 51 NBGP — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">51 NBGP</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 8,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="259 mac 4-solid-pin lock mac category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 8500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.35%20(5).jpeg" aria-label="Enlarge photo of 259 MAC">
+          <img src="assets/img/T045.jpg" alt="Tenacity 259 MAC — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">259 MAC</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 8,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="62 acc 4-solid-pin lock acc category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 9000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.35%20(1).jpeg" aria-label="Enlarge photo of 62 ACC">
+          <img src="assets/img/T046.jpg" alt="Tenacity 62 ACC — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">62 ACC</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 9,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 abb 4-solid-pin lock abb category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 9000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.35%20(2).jpeg" aria-label="Enlarge photo of 90 ABB">
+          <img src="assets/img/T047.jpg" alt="Tenacity 90 ABB — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 ABB</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 9,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 acc 4-solid-pin lock acc category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 9000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.35%20(3).jpeg" aria-label="Enlarge photo of 90 ACC">
+          <img src="assets/img/T048.jpg" alt="Tenacity 90 ACC — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 ACC</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 9,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="90 nbgp 4-solid-pin lock nbgp category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 9000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.35%20(4).jpeg" aria-label="Enlarge photo of 90 NBGP">
+          <img src="assets/img/T049.jpg" alt="Tenacity 90 NBGP — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">90 NBGP</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 9,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 black 4-solid-pin lock black category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 9500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.36.jpeg" aria-label="Enlarge photo of 510 Black">
+          <img src="assets/img/T050.jpg" alt="Tenacity 510 Black — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 Black</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 9,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 mab 4-solid-pin lock mab category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 9500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.36%20(1).jpeg" aria-label="Enlarge photo of 510 MAB">
+          <img src="assets/img/T051.jpg" alt="Tenacity 510 MAB — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 MAB</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 9,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="510 mac 4-solid-pin lock mac category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 9500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.36%20(2).jpeg" aria-label="Enlarge photo of 510 MAC">
+          <img src="assets/img/T052.jpg" alt="Tenacity 510 MAC — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">510 MAC</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 9,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="600 black 4-solid-pin lock black category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 10000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.36%20(3).jpeg" aria-label="Enlarge photo of 600 Black">
+          <img src="assets/img/T053.jpg" alt="Tenacity 600 Black — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">600 Black</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 10,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="600 mab 4-solid-pin lock mab category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 10000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.36%20(4).jpeg" aria-label="Enlarge photo of 600 MAB">
+          <img src="assets/img/T054.jpg" alt="Tenacity 600 MAB — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">600 MAB</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 10,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="600 mac 4-solid-pin lock mac category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 10000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.36%20(5).jpeg" aria-label="Enlarge photo of 600 MAC">
+          <img src="assets/img/T055.jpg" alt="Tenacity 600 MAC — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">600 MAC</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 10,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="600 mcf 4-solid-pin lock mcf category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 10000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.36%20(6).jpeg" aria-label="Enlarge photo of 600 MCF">
+          <img src="assets/img/T056.jpg" alt="Tenacity 600 MCF — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">600 MCF</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 10,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="600 msn 4-solid-pin lock msn category 6 full brass 70 mm cylinder 2-in-1 double serrated keys non-duplicatable keys* 10000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.29.37.jpeg" aria-label="Enlarge photo of 600 MSN">
+          <img src="assets/img/T057.jpg" alt="Tenacity 600 MSN — 4-solid-pin lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">600 MSN</h4>
+          <p class="name">4-solid-pin lock</p>
+          <ul class="specs"><li>Full brass 70 mm cylinder</li><li>2-in-1 double serrated keys</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 10,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s09">
+      <header class="section-head">
+        <div class="section-num">09</div>
+        <div class="section-text">
+          <span class="cat">Supplier Category 7</span>
+          <h3>Premium SUS 304 Stainless Steel Mortice Lock</h3>
+          <p class="lead">The Tenacity Premium SUS 304 Stainless Steel Mortice Lock is designed for customers seeking long-term reliability and superior security. According to the supplier, the lock case, internal mechanisms, springs and screws are SUS 304 stainless steel for resistance to rust and wear, with heavy-duty zinc handles for a solid premium feel.</p>
+          <blockquote><span>Supplier note</span>“Designed for steel doors and heavy-duty wooden doors, this range is backed by a lifetime guarantee.”</blockquote>
+          <ul class="facts"><li>SUS 304 stainless steel lock case &amp; mechanism</li><li>Triple-plated, steel-reinforced 70 mm anti-drill cylinder</li><li>Non-duplicatable* keys</li><li>Heavy-duty zinc handles</li><li>Lifetime guarantee</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="big f6 black/on black sus 304 stainless steel mortice lock black/on black category 7 sus 304 stainless steel lock case non-duplicatable 2-in-1 double serrated keys* 70 mm anti-drill, steel-reinforced, triple-plated cylinder 12000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.30.01.jpeg" aria-label="Enlarge photo of Big F6 Black/on Black">
+          <img src="assets/img/T058.jpg" alt="Tenacity Big F6 Black/on Black — SUS 304 stainless steel mortice lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-life">Lifetime guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Big F6 Black/on Black</h4>
+          <p class="name">SUS 304 stainless steel mortice lock</p>
+          <ul class="specs"><li>SUS 304 stainless steel lock case</li><li>Non-duplicatable 2-in-1 double serrated keys*</li><li>70 mm anti-drill, steel-reinforced, triple-plated cylinder</li></ul>
+          <p class="price">KSh 12,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="big f6 mab/wood sus 304 stainless steel mortice lock mab/wood category 7 sus 304 stainless steel lock case non-duplicatable 2-in-1 double serrated keys* 70 mm anti-drill, steel-reinforced, triple-plated cylinder 12000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.30.01%20(1).jpeg" aria-label="Enlarge photo of Big F6 MAB/Wood">
+          <img src="assets/img/T059.jpg" alt="Tenacity Big F6 MAB/Wood — SUS 304 stainless steel mortice lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-life">Lifetime guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Big F6 MAB/Wood</h4>
+          <p class="name">SUS 304 stainless steel mortice lock</p>
+          <ul class="specs"><li>SUS 304 stainless steel lock case</li><li>Non-duplicatable 2-in-1 double serrated keys*</li><li>70 mm anti-drill, steel-reinforced, triple-plated cylinder</li></ul>
+          <p class="price">KSh 12,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="big f6 mae sus 304 stainless steel mortice lock mae category 7 sus 304 stainless steel lock case non-duplicatable 2-in-1 double serrated keys* 70 mm anti-drill, steel-reinforced, triple-plated cylinder 12000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.30.01%20(2).jpeg" aria-label="Enlarge photo of Big F6 MAE">
+          <img src="assets/img/T060.jpg" alt="Tenacity Big F6 MAE — SUS 304 stainless steel mortice lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-life">Lifetime guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Big F6 MAE</h4>
+          <p class="name">SUS 304 stainless steel mortice lock</p>
+          <ul class="specs"><li>SUS 304 stainless steel lock case</li><li>Non-duplicatable 2-in-1 double serrated keys*</li><li>70 mm anti-drill, steel-reinforced, triple-plated cylinder</li></ul>
+          <p class="price">KSh 12,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="big f6 msn/black sus 304 stainless steel mortice lock msn/black category 7 sus 304 stainless steel lock case non-duplicatable 2-in-1 double serrated keys* 70 mm anti-drill, steel-reinforced, triple-plated cylinder 12000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.30.02.jpeg" aria-label="Enlarge photo of Big F6 MSN/Black">
+          <img src="assets/img/T061.jpg" alt="Tenacity Big F6 MSN/Black — SUS 304 stainless steel mortice lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-life">Lifetime guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Big F6 MSN/Black</h4>
+          <p class="name">SUS 304 stainless steel mortice lock</p>
+          <ul class="specs"><li>SUS 304 stainless steel lock case</li><li>Non-duplicatable 2-in-1 double serrated keys*</li><li>70 mm anti-drill, steel-reinforced, triple-plated cylinder</li></ul>
+          <p class="price">KSh 12,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="big f6 pvd/black sus 304 stainless steel mortice lock pvd/black category 7 sus 304 stainless steel lock case non-duplicatable 2-in-1 double serrated keys* 70 mm anti-drill, steel-reinforced, triple-plated cylinder 12000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.30.02%20(1).jpeg" aria-label="Enlarge photo of Big F6 PVD/Black">
+          <img src="assets/img/T062.jpg" alt="Tenacity Big F6 PVD/Black — SUS 304 stainless steel mortice lock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-life">Lifetime guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Big F6 PVD/Black</h4>
+          <p class="name">SUS 304 stainless steel mortice lock</p>
+          <ul class="specs"><li>SUS 304 stainless steel lock case</li><li>Non-duplicatable 2-in-1 double serrated keys*</li><li>70 mm anti-drill, steel-reinforced, triple-plated cylinder</li></ul>
+          <p class="price">KSh 12,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+  </div>
+  <div class="collection" id="cC">
+    <header class="collection-head">
+      <p class="eyebrow">Collection C</p>
+      <h2>Deadlocks</h2>
+      <p>Add a dedicated locking point to any door. Choose by how the lock engages when the door closes.</p>
+    </header>
+    <section class="section" id="s10">
+      <header class="section-head">
+        <div class="section-num">10</div>
+        <div class="section-text">
+          
+          <h3>Non-Latching Deadlocks</h3>
+          <p class="lead">Manually operated deadlocks that do not lock automatically when the door closes. Use the key to engage the locking bolt.</p>
+          <blockquote><span>Supplier note</span>“We have the non-latching deadlocks (it does not lock automatically you have to use the key to lock).”</blockquote>
+          <ul class="facts"><li>Locks only with the key</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="deadlock — normal keys deadlock with normal keys   non-latching: lock with the key 2000">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.44.45%20(1).jpeg" aria-label="Enlarge photo of Deadlock — normal keys">
+          <img src="assets/img/T063.jpg" alt="Tenacity Deadlock — normal keys — Deadlock with normal keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Deadlock — normal keys</h4>
+          <p class="name">Deadlock with normal keys</p>
+          <ul class="specs"><li>Non-latching: lock with the key</li></ul>
+          <p class="price">KSh 2,000 <s>KSh 2,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="deadlock — dimple keys deadlock with dimple keys   non-latching: lock with the key 2500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.44.43.jpeg" aria-label="Enlarge photo of Deadlock — dimple keys">
+          <img src="assets/img/T064.jpg" alt="Tenacity Deadlock — dimple keys — Deadlock with dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Deadlock — dimple keys</h4>
+          <p class="name">Deadlock with dimple keys</p>
+          <ul class="specs"><li>Non-latching: lock with the key</li></ul>
+          <p class="price">KSh 2,500 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="deadlock anti-drill anti-drill, steel-reinforced deadlock   70 mm cylinder non-duplicatable keys* 5000">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.44.45.jpeg" aria-label="Enlarge photo of Deadlock Anti-Drill">
+          <img src="assets/img/T065.jpg" alt="Tenacity Deadlock Anti-Drill — Anti-drill, steel-reinforced deadlock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Deadlock Anti-Drill</h4>
+          <p class="name">Anti-drill, steel-reinforced deadlock</p>
+          <ul class="specs"><li>70 mm cylinder</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s11">
+      <header class="section-head">
+        <div class="section-num">11</div>
+        <div class="section-text">
+          
+          <h3>Auto-Latching Deadlocks</h3>
+          <p class="lead">Automatic-latching deadlocks whose mechanism engages when the door shuts. Correct installation remains essential.</p>
+          <blockquote><span>Supplier note</span>“We also have the Auto-latching deadlocks (it locks automatically once banged).”</blockquote>
+          <ul class="facts"><li>Locks automatically when the door shuts</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="single-pin deadlock single-pin deadlock   3 brass normal keys 4500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.46.49%20(2).jpeg" aria-label="Enlarge photo of Single-Pin Deadlock">
+          <img src="assets/img/T066.jpg" alt="Tenacity Single-Pin Deadlock — Single-pin deadlock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Single-Pin Deadlock</h4>
+          <p class="name">Single-pin deadlock</p>
+          <ul class="specs"><li>3 brass normal keys</li></ul>
+          <p class="price">KSh 4,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="cisa night latch cisa night latch (rim lock)   rim-mounted night latch 4500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.46.49%20(1).jpeg" aria-label="Enlarge photo of Cisa Night Latch">
+          <img src="assets/img/T067.jpg" alt="Tenacity Cisa Night Latch — Cisa night latch (rim lock)" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Cisa Night Latch</h4>
+          <p class="name">Cisa night latch (rim lock)</p>
+          <ul class="specs"><li>Rim-mounted night latch</li></ul>
+          <p class="price">KSh 4,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="3-pin deadlock 3-pin deadlock   5 brass dimple keys 5500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.46.48.jpeg" aria-label="Enlarge photo of 3-Pin Deadlock">
+          <img src="assets/img/T068.jpg" alt="Tenacity 3-Pin Deadlock — 3-pin deadlock" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">3-Pin Deadlock</h4>
+          <p class="name">3-pin deadlock</p>
+          <ul class="specs"><li>5 brass dimple keys</li></ul>
+          <p class="price">KSh 5,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="4-pin deadlock — circular antique 4-pin deadlock, circular antique escutcheons circular antique  non-duplicatable keys* 6500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.46.48%20(1).jpeg" aria-label="Enlarge photo of 4-Pin Deadlock — Circular antique">
+          <img src="assets/img/T069.jpg" alt="Tenacity 4-Pin Deadlock — Circular antique — 4-pin deadlock, circular antique escutcheons" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">4-Pin Deadlock — Circular antique</h4>
+          <p class="name">4-pin deadlock, circular antique escutcheons</p>
+          <ul class="specs"><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 6,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="4-pin deadlock — circular brass 4-pin deadlock, circular brass escutcheons circular brass  non-duplicatable keys* 6500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.46.48%20(2).jpeg" aria-label="Enlarge photo of 4-Pin Deadlock — Circular brass">
+          <img src="assets/img/T070.jpg" alt="Tenacity 4-Pin Deadlock — Circular brass — 4-pin deadlock, circular brass escutcheons" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">4-Pin Deadlock — Circular brass</h4>
+          <p class="name">4-pin deadlock, circular brass escutcheons</p>
+          <ul class="specs"><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 6,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="4-pin deadlock — circular silver 4-pin deadlock, circular silver escutcheons circular silver  non-duplicatable keys* 6500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.46.48%20(3).jpeg" aria-label="Enlarge photo of 4-Pin Deadlock — Circular silver">
+          <img src="assets/img/T071.jpg" alt="Tenacity 4-Pin Deadlock — Circular silver — 4-pin deadlock, circular silver escutcheons" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">4-Pin Deadlock — Circular silver</h4>
+          <p class="name">4-pin deadlock, circular silver escutcheons</p>
+          <ul class="specs"><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 6,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="4-pin deadlock — square brass 4-pin deadlock, square brass escutcheons square brass  non-duplicatable keys* 6500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.46.49.jpeg" aria-label="Enlarge photo of 4-Pin Deadlock — Square brass">
+          <img src="assets/img/T072.jpg" alt="Tenacity 4-Pin Deadlock — Square brass — 4-pin deadlock, square brass escutcheons" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">4-Pin Deadlock — Square brass</h4>
+          <p class="name">4-pin deadlock, square brass escutcheons</p>
+          <ul class="specs"><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 6,500</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s12">
+      <header class="section-head">
+        <div class="section-num">12</div>
+        <div class="section-text">
+          
+          <h3>Ball-Catch Deadlocks</h3>
+          <p class="lead">A hybrid between non-latching and auto-latching deadlocks. The ball catch holds the door closed when it shuts; if the lower bolt is not locked, the door can be pushed or pulled open without a key. Turn the key to engage the main bolt when full locking is needed.</p>
+          <blockquote><span>Supplier note</span>“A hybrid solution between non-latching and auto-latching deadlocks.”</blockquote>
+          <ul class="facts"><li>Ball catch holds the door</li><li>Key engages the main bolt</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="ball-catch lockbody ball-catch lockbody   brass normal keys grey escutcheons 5000">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2009.47.18.jpeg" aria-label="Enlarge photo of Ball-Catch Lockbody">
+          <img src="assets/img/T073.jpg" alt="Tenacity Ball-Catch Lockbody — Ball-catch lockbody" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Ball-Catch Lockbody</h4>
+          <p class="name">Ball-catch lockbody</p>
+          <ul class="specs"><li>Brass normal keys</li><li>Grey escutcheons</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      </div>
+    </section>
+  </div>
+  <div class="collection" id="cD">
+    <header class="collection-head">
+      <p class="eyebrow">Collection D</p>
+      <h2>Door Hardware &amp; Accessories</h2>
+      <p>Pull handles, push and pull plates, bathroom sets and replacement cylinders.</p>
+    </header>
+    <section class="section" id="s13">
+      <header class="section-head">
+        <div class="section-num">13</div>
+        <div class="section-text">
+          
+          <h3>Door Pullers</h3>
+          <p class="lead">Door pull handles and push/pull plates for a range of entrance designs. Handle sizes are listed with their individual prices.</p>
+          <blockquote><span>Supplier note</span>“For the door pullers”</blockquote>
+          
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="pull plate 75×300 pull plate 75 × 300 mm   stainless finish 930">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.07.jpeg" aria-label="Enlarge photo of Pull Plate 75×300">
+          <img src="assets/img/T074.jpg" alt="Tenacity Pull Plate 75×300 — Pull plate 75 × 300 mm" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Pull Plate 75×300</h4>
+          <p class="name">Pull plate 75 × 300 mm</p>
+          <ul class="specs"><li>Stainless finish</li></ul>
+          <p class="price">KSh 930</p>
+        </div>
+      </article>
+      <article class="card" data-search="push plate 75×300 push plate 75 × 300 mm   stainless finish 930">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.07%20(1).jpeg" aria-label="Enlarge photo of Push Plate 75×300">
+          <img src="assets/img/T075.jpg" alt="Tenacity Push Plate 75×300 — Push plate 75 × 300 mm" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Push Plate 75×300</h4>
+          <p class="name">Push plate 75 × 300 mm</p>
+          <ul class="specs"><li>Stainless finish</li></ul>
+          <p class="price">KSh 930</p>
+        </div>
+      </article>
+      <article class="card" data-search="pull plate 100×300 pull plate 100 × 300 mm   stainless finish 1000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.07%20(2).jpeg" aria-label="Enlarge photo of Pull Plate 100×300">
+          <img src="assets/img/T076.jpg" alt="Tenacity Pull Plate 100×300 — Pull plate 100 × 300 mm" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Pull Plate 100×300</h4>
+          <p class="name">Pull plate 100 × 300 mm</p>
+          <ul class="specs"><li>Stainless finish</li></ul>
+          <p class="price">KSh 1,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="push plate 100×300 push plate 100 × 300 mm   stainless finish 1000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.08.jpeg" aria-label="Enlarge photo of Push Plate 100×300">
+          <img src="assets/img/T077.jpg" alt="Tenacity Push Plate 100×300 — Push plate 100 × 300 mm" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Push Plate 100×300</h4>
+          <p class="name">Push plate 100 × 300 mm</p>
+          <ul class="specs"><li>Stainless finish</li></ul>
+          <p class="price">KSh 1,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="conceal fix conceal-fix pull handles   4 lengths ">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.08%20(1).jpeg" aria-label="Enlarge photo of Conceal Fix">
+          <img src="assets/img/T078.jpg" alt="Tenacity Conceal Fix — Conceal-fix pull handles" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Conceal Fix</h4>
+          <p class="name">Conceal-fix pull handles</p>
+          <ul class="specs"><li>4 lengths</li></ul>
+          <table class="variants" aria-label="Sizes and prices"><tr><th>6&quot;</th><td>KSh 400</td></tr><tr><th>8&quot;</th><td>KSh 450</td></tr><tr><th>10&quot;</th><td>KSh 500</td></tr><tr><th>12&quot;</th><td>KSh 550</td></tr></table>
+        </div>
+      </article>
+      <article class="card" data-search="crank handles crank pull handles   3 lengths ">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.08%20(2).jpeg" aria-label="Enlarge photo of Crank Handles">
+          <img src="assets/img/T079.jpg" alt="Tenacity Crank Handles — Crank pull handles" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Crank Handles</h4>
+          <p class="name">Crank pull handles</p>
+          <ul class="specs"><li>3 lengths</li></ul>
+          <table class="variants" aria-label="Sizes and prices"><tr><th>16&quot;</th><td>KSh 2,500</td></tr><tr><th>20&quot;</th><td>KSh 3,000</td></tr><tr><th>24&quot;</th><td>KSh 3,500</td></tr></table>
+        </div>
+      </article>
+      <article class="card" data-search="s-handles s-shaped pull handles   4 lengths ">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.08%20(4).jpeg" aria-label="Enlarge photo of S-Handles">
+          <img src="assets/img/T080.jpg" alt="Tenacity S-Handles — S-shaped pull handles" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">S-Handles</h4>
+          <p class="name">S-shaped pull handles</p>
+          <ul class="specs"><li>4 lengths</li></ul>
+          <table class="variants" aria-label="Sizes and prices"><tr><th>12&quot;</th><td>KSh 2,500</td></tr><tr><th>16&quot;</th><td>KSh 3,000</td></tr><tr><th>20&quot;</th><td>KSh 3,200</td></tr><tr><th>24&quot;</th><td>KSh 3,500</td></tr></table>
+        </div>
+      </article>
+      <article class="card" data-search="h-handles matt black matt black h-handles matt black  sizes are hole-to-hole distance ">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2009.53.08%20(3).jpeg" aria-label="Enlarge photo of H-Handles Matt Black">
+          <img src="assets/img/T081.jpg" alt="Tenacity H-Handles Matt Black — Matt black H-handles" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">H-Handles Matt Black</h4>
+          <p class="name">Matt black H-handles</p>
+          <ul class="specs"><li>Sizes are hole-to-hole distance</li></ul>
+          <table class="variants" aria-label="Sizes and prices"><tr><th>12&quot;</th><td>KSh 2,500</td></tr><tr><th>16&quot;</th><td>KSh 3,000</td></tr><tr><th>20&quot;</th><td>KSh 3,200</td></tr><tr><th>24&quot;</th><td>KSh 3,500</td></tr></table>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s14">
+      <header class="section-head">
+        <div class="section-num">14</div>
+        <div class="section-text">
+          
+          <h3>Bathroom Sets</h3>
+          <p class="lead">Bathroom accessory sets in three series (7500, 7600, 7800) and AB, GP and SN finishes. Set contents are as pictured.</p>
+          <blockquote><span>Supplier note</span>“For the bathroom set”</blockquote>
+          <ul class="facts"><li>All sets on offer: KSh 3,000 (was 3,500)</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="7500 ab bathroom set ab  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.30.jpeg" aria-label="Enlarge photo of 7500 AB">
+          <img src="assets/img/T082.jpg" alt="Tenacity 7500 AB — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7500 AB</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="7500 gp bathroom set gp  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.30%20(1).jpeg" aria-label="Enlarge photo of 7500 GP">
+          <img src="assets/img/T083.jpg" alt="Tenacity 7500 GP — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7500 GP</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="7500 sn bathroom set sn  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.30%20(2).jpeg" aria-label="Enlarge photo of 7500 SN">
+          <img src="assets/img/T084.jpg" alt="Tenacity 7500 SN — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7500 SN</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="7600 gp bathroom set gp  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.30%20(3).jpeg" aria-label="Enlarge photo of 7600 GP">
+          <img src="assets/img/T085.jpg" alt="Tenacity 7600 GP — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7600 GP</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="7600 sn bathroom set sn  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.31.jpeg" aria-label="Enlarge photo of 7600 SN">
+          <img src="assets/img/T086.jpg" alt="Tenacity 7600 SN — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7600 SN</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="7800 ab bathroom set ab  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.31%20(1).jpeg" aria-label="Enlarge photo of 7800 AB">
+          <img src="assets/img/T087.jpg" alt="Tenacity 7800 AB — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7800 AB</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="7800 gp bathroom set gp  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.32.jpeg" aria-label="Enlarge photo of 7800 GP">
+          <img src="assets/img/T088.jpg" alt="Tenacity 7800 GP — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7800 GP</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      <article class="card" data-search="7800 sn bathroom set sn  towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured) 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.00.32%20(1).jpeg" aria-label="Enlarge photo of 7800 SN">
+          <img src="assets/img/T089.jpg" alt="Tenacity 7800 SN — Bathroom set" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-offer">Offer</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">7800 SN</h4>
+          <p class="name">Bathroom set</p>
+          <ul class="specs"><li>Towel rail, towel ring, tumbler holder, soap dish, hook, toilet-roll holder (as pictured)</li></ul>
+          <p class="price">KSh 3,000 <s>KSh 3,500</s></p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s15">
+      <header class="section-head">
+        <div class="section-num">15</div>
+        <div class="section-text">
+          
+          <h3>Cylinders</h3>
+          <p class="lead">Replacement and longer door lock cylinders. Standard lock packages include a 70 mm cylinder; for doors wider than 2 inches, choose an 80 mm, 90 mm or 100 mm cylinder. The included 70 mm cylinder cannot be exchanged or traded in.</p>
+          <blockquote><span>Supplier note</span>“Cylinders”</blockquote>
+          <ul class="facts"><li>70 / 80 / 90 / 100 mm where listed</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="big cylinders — dimple keys big cylinders with dimple keys   dimple keys ">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.52.jpeg" aria-label="Enlarge photo of Big Cylinders — Dimple Keys">
+          <img src="assets/img/T090.jpg" alt="Tenacity Big Cylinders — Dimple Keys — Big cylinders with dimple keys" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Big Cylinders — Dimple Keys</h4>
+          <p class="name">Big cylinders with dimple keys</p>
+          <ul class="specs"><li>Dimple keys</li></ul>
+          <table class="variants" aria-label="Sizes and prices"><tr><th>70 mm</th><td>KSh 1,500</td></tr><tr><th>80 mm</th><td>KSh 2,000</td></tr><tr><th>90 mm</th><td>KSh 2,500</td></tr><tr><th>100 mm</th><td>KSh 3,000</td></tr></table>
+        </div>
+      </article>
+      <article class="card" data-search="big cylinders — non-duplicatable big cylinders with non-duplicatable keys*   non-duplicatable keys* ">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.52%20(1).jpeg" aria-label="Enlarge photo of Big Cylinders — Non-Duplicatable">
+          <img src="assets/img/T091.jpg" alt="Tenacity Big Cylinders — Non-Duplicatable — Big cylinders with non-duplicatable keys*" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Big Cylinders — Non-Duplicatable</h4>
+          <p class="name">Big cylinders with non-duplicatable keys*</p>
+          <ul class="specs"><li>Non-duplicatable keys*</li></ul>
+          <table class="variants" aria-label="Sizes and prices"><tr><th>70 mm</th><td>KSh 2,500</td></tr><tr><th>80 mm</th><td>KSh 3,000</td></tr><tr><th>90 mm</th><td>KSh 3,500</td></tr><tr><th>100 mm</th><td>KSh 4,000</td></tr></table>
+        </div>
+      </article>
+      <article class="card" data-search="triple steel-plated cylinders triple steel-plated cylinders   non-duplicatable keys* ">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.52%20(2).jpeg" aria-label="Enlarge photo of Triple Steel-Plated Cylinders">
+          <img src="assets/img/T092.jpg" alt="Tenacity Triple Steel-Plated Cylinders — Triple steel-plated cylinders" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Triple Steel-Plated Cylinders</h4>
+          <p class="name">Triple steel-plated cylinders</p>
+          <ul class="specs"><li>Non-duplicatable keys*</li></ul>
+          <table class="variants" aria-label="Sizes and prices"><tr><th>70 mm</th><td>KSh 3,500</td></tr><tr><th>80 mm</th><td>KSh 4,000</td></tr><tr><th>90 mm</th><td>KSh 4,500</td></tr></table>
+        </div>
+      </article>
+      <article class="card" data-search="small cylinder 70 mm small cylinder, 2-in-1 double serrated   70 mm non-duplicatable keys* 2000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.52%20(5).jpeg" aria-label="Enlarge photo of Small Cylinder 70 mm">
+          <img src="assets/img/T093.jpg" alt="Tenacity Small Cylinder 70 mm — Small cylinder, 2-in-1 double serrated" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Small Cylinder 70 mm</h4>
+          <p class="name">Small cylinder, 2-in-1 double serrated</p>
+          <ul class="specs"><li>70 mm</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 2,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="small cylinder 80 mm small cylinder, 2-in-1 double serrated   80 mm non-duplicatable keys* 2500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.54.jpeg" aria-label="Enlarge photo of Small Cylinder 80 mm">
+          <img src="assets/img/T094.jpg" alt="Tenacity Small Cylinder 80 mm — Small cylinder, 2-in-1 double serrated" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Small Cylinder 80 mm</h4>
+          <p class="name">Small cylinder, 2-in-1 double serrated</p>
+          <ul class="specs"><li>80 mm</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 2,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="small cylinder 90 mm small cylinder, 2-in-1 double serrated   90 mm non-duplicatable keys* 3000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.53.jpeg" aria-label="Enlarge photo of Small Cylinder 90 mm">
+          <img src="assets/img/T095.jpg" alt="Tenacity Small Cylinder 90 mm — Small cylinder, 2-in-1 double serrated" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Small Cylinder 90 mm</h4>
+          <p class="name">Small cylinder, 2-in-1 double serrated</p>
+          <ul class="specs"><li>90 mm</li><li>Non-duplicatable keys*</li></ul>
+          <p class="price">KSh 3,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="small cylinder — keys both sides small cylinder, keys both sides   assorted finishes pictured 500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.52%20(3).jpeg" aria-label="Enlarge photo of Small Cylinder — Keys Both Sides">
+          <img src="assets/img/T096.jpg" alt="Tenacity Small Cylinder — Keys Both Sides — Small cylinder, keys both sides" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Small Cylinder — Keys Both Sides</h4>
+          <p class="name">Small cylinder, keys both sides</p>
+          <ul class="specs"><li>Assorted finishes pictured</li></ul>
+          <p class="price">KSh 500</p>
+        </div>
+      </article>
+      <article class="card" data-search="small cylinder — key &amp; knob small cylinder, key and knob   assorted finishes pictured 500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.04.52%20(4).jpeg" aria-label="Enlarge photo of Small Cylinder — Key &amp; Knob">
+          <img src="assets/img/T097.jpg" alt="Tenacity Small Cylinder — Key &amp; Knob — Small cylinder, key and knob" loading="lazy" decoding="async">
+          <span class="badges"><span class="badge badge-g5">5-yr guarantee</span></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Small Cylinder — Key &amp; Knob</h4>
+          <p class="name">Small cylinder, key and knob</p>
+          <ul class="specs"><li>Assorted finishes pictured</li></ul>
+          <p class="price">KSh 500</p>
+        </div>
+      </article>
+      </div>
+    </section>
+  </div>
+  <div class="collection" id="cE">
+    <header class="collection-head">
+      <p class="eyebrow">Collection E</p>
+      <h2>Padlocks</h2>
+      <p>Brass padlocks from budget to Italian-made, for gates, stores and shutters.</p>
+    </header>
+    <section class="section" id="s16">
+      <header class="section-head">
+        <div class="section-num">16</div>
+        <div class="section-text">
+          
+          <h3>Tri-Circle Padlocks</h3>
+          <p class="lead">Brass Tri-Circle padlocks in four sizes, priced from the shelf labels.</p>
+          <blockquote><span>Supplier note</span>“Padlocks: Tri-circle”</blockquote>
+          
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="tri-circle 263 tri-circle brass padlock   price from shelf label 400">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.08.54.jpeg" aria-label="Enlarge photo of Tri-Circle 263">
+          <img src="assets/img/T098.jpg" alt="Tenacity Tri-Circle 263 — Tri-Circle brass padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Tri-Circle 263</h4>
+          <p class="name">Tri-Circle brass padlock</p>
+          <ul class="specs"><li>Price from shelf label</li></ul>
+          <p class="price">KSh 400</p>
+        </div>
+      </article>
+      <article class="card" data-search="tri-circle 264 tri-circle brass padlock   price from shelf label 600">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.08.54%20(1).jpeg" aria-label="Enlarge photo of Tri-Circle 264">
+          <img src="assets/img/T099.jpg" alt="Tenacity Tri-Circle 264 — Tri-Circle brass padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Tri-Circle 264</h4>
+          <p class="name">Tri-Circle brass padlock</p>
+          <ul class="specs"><li>Price from shelf label</li></ul>
+          <p class="price">KSh 600</p>
+        </div>
+      </article>
+      <article class="card" data-search="tri-circle 265 tri-circle brass padlock   price from shelf label 1000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.08.55.jpeg" aria-label="Enlarge photo of Tri-Circle 265">
+          <img src="assets/img/T100.jpg" alt="Tenacity Tri-Circle 265 — Tri-Circle brass padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Tri-Circle 265</h4>
+          <p class="name">Tri-Circle brass padlock</p>
+          <ul class="specs"><li>Price from shelf label</li></ul>
+          <p class="price">KSh 1,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="tri-circle 266 tri-circle brass padlock   price from shelf label 1500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.08.56.jpeg" aria-label="Enlarge photo of Tri-Circle 266">
+          <img src="assets/img/T101.jpg" alt="Tenacity Tri-Circle 266 — Tri-Circle brass padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Tri-Circle 266</h4>
+          <p class="name">Tri-Circle brass padlock</p>
+          <ul class="specs"><li>Price from shelf label</li></ul>
+          <p class="price">KSh 1,500</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s17">
+      <header class="section-head">
+        <div class="section-num">17</div>
+        <div class="section-text">
+          
+          <h3>Mindy Padlocks</h3>
+          <p class="lead">Mindy anti-theft padlocks in 40, 50 and 60 mm, with or without a shackle guard.</p>
+          <blockquote><span>Supplier note</span>“Mindy”</blockquote>
+          
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="mindy 40 mm mindy 40 mm padlock, with guard   anti-theft lock hardened shackle shackle guard 800">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2010.09.52.jpeg" aria-label="Enlarge photo of Mindy 40 mm">
+          <img src="assets/img/T102.jpg" alt="Tenacity Mindy 40 mm — Mindy 40 mm padlock, with guard" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Mindy 40 mm</h4>
+          <p class="name">Mindy 40 mm padlock, with guard</p>
+          <ul class="specs"><li>Anti-theft lock</li><li>Hardened shackle</li><li>Shackle guard</li></ul>
+          <p class="price">KSh 800</p>
+        </div>
+      </article>
+      <article class="card" data-search="mindy 40 mm mindy 40 mm padlock, without guard   anti-theft lock hardened shackle open shackle 800">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2010.09.52%20(1).jpeg" aria-label="Enlarge photo of Mindy 40 mm">
+          <img src="assets/img/T103.jpg" alt="Tenacity Mindy 40 mm — Mindy 40 mm padlock, without guard" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Mindy 40 mm</h4>
+          <p class="name">Mindy 40 mm padlock, without guard</p>
+          <ul class="specs"><li>Anti-theft lock</li><li>Hardened shackle</li><li>Open shackle</li></ul>
+          <p class="price">KSh 800</p>
+        </div>
+      </article>
+      <article class="card" data-search="mindy 50 mm mindy 50 mm padlock, with guard   anti-theft lock hardened shackle shackle guard 1500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2010.09.52%20(2).jpeg" aria-label="Enlarge photo of Mindy 50 mm">
+          <img src="assets/img/T104.jpg" alt="Tenacity Mindy 50 mm — Mindy 50 mm padlock, with guard" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Mindy 50 mm</h4>
+          <p class="name">Mindy 50 mm padlock, with guard</p>
+          <ul class="specs"><li>Anti-theft lock</li><li>Hardened shackle</li><li>Shackle guard</li></ul>
+          <p class="price">KSh 1,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="mindy 50 mm mindy 50 mm padlock, without guard   anti-theft lock hardened shackle open shackle 1500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2010.09.53.jpeg" aria-label="Enlarge photo of Mindy 50 mm">
+          <img src="assets/img/T105.jpg" alt="Tenacity Mindy 50 mm — Mindy 50 mm padlock, without guard" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Mindy 50 mm</h4>
+          <p class="name">Mindy 50 mm padlock, without guard</p>
+          <ul class="specs"><li>Anti-theft lock</li><li>Hardened shackle</li><li>Open shackle</li></ul>
+          <p class="price">KSh 1,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="mindy 60 mm mindy 60 mm padlock, with guard   anti-theft lock hardened shackle shackle guard 1500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2010.09.53%20(1).jpeg" aria-label="Enlarge photo of Mindy 60 mm">
+          <img src="assets/img/T106.jpg" alt="Tenacity Mindy 60 mm — Mindy 60 mm padlock, with guard" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Mindy 60 mm</h4>
+          <p class="name">Mindy 60 mm padlock, with guard</p>
+          <ul class="specs"><li>Anti-theft lock</li><li>Hardened shackle</li><li>Shackle guard</li></ul>
+          <p class="price">KSh 1,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="mindy 60 mm mindy 60 mm padlock, without guard   anti-theft lock hardened shackle open shackle 1500">
+        <button class="shot" type="button" data-full="images/WhatsApp%20Image%202026-10-06%20at%2010.09.54.jpeg" aria-label="Enlarge photo of Mindy 60 mm">
+          <img src="assets/img/T107.jpg" alt="Tenacity Mindy 60 mm — Mindy 60 mm padlock, without guard" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Mindy 60 mm</h4>
+          <p class="name">Mindy 60 mm padlock, without guard</p>
+          <ul class="specs"><li>Anti-theft lock</li><li>Hardened shackle</li><li>Open shackle</li></ul>
+          <p class="price">KSh 1,500</p>
+        </div>
+      </article>
+      </div>
+    </section>
+    <section class="section" id="s18">
+      <header class="section-head">
+        <div class="section-num">18</div>
+        <div class="section-text">
+          
+          <h3>Viro Padlocks</h3>
+          <p class="lead">Italian-made Viro padlocks with normal or patented keys, in key-retaining and non-key-retaining versions.</p>
+          <blockquote><span>Supplier note</span>“Viro”</blockquote>
+          <ul class="facts"><li>Made in Italy</li></ul>
+        </div>
+      </header>
+      <div class="grid">
+      <article class="card" data-search="viro 102 viro 102 padlock   made in italy 4500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24.jpeg" aria-label="Enlarge photo of Viro 102">
+          <img src="assets/img/T108.jpg" alt="Tenacity Viro 102 — Viro 102 padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 102</h4>
+          <p class="name">Viro 102 padlock</p>
+          <ul class="specs"><li>Made in Italy</li></ul>
+          <p class="price">KSh 4,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 303 pv viro 303 pv padlock   made in italy 50 mm 3 patented keys not key-retaining 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(8).jpeg" aria-label="Enlarge photo of Viro 303 PV">
+          <img src="assets/img/T109.jpg" alt="Tenacity Viro 303 PV — Viro 303 PV padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 303 PV</h4>
+          <p class="name">Viro 303 PV padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>50 mm</li><li>3 patented keys</li><li>Not key-retaining</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 304 viro 304 padlock   made in italy 60 mm 3 patented keys not key-retaining 5000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.28.jpeg" aria-label="Enlarge photo of Viro 304">
+          <img src="assets/img/T110.jpg" alt="Tenacity Viro 304 — Viro 304 padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 304</h4>
+          <p class="name">Viro 304 padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>60 mm</li><li>3 patented keys</li><li>Not key-retaining</li></ul>
+          <p class="price">KSh 5,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 305 viro 305 padlock   made in italy 70 mm 3 patented keys not key-retaining 5600">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.28%20(1).jpeg" aria-label="Enlarge photo of Viro 305">
+          <img src="assets/img/T111.jpg" alt="Tenacity Viro 305 — Viro 305 padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 305</h4>
+          <p class="name">Viro 305 padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>70 mm</li><li>3 patented keys</li><li>Not key-retaining</li></ul>
+          <p class="price">KSh 5,600</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 103 viro 103 padlock   made in italy 60 mm 3 normal keys key-retaining 5600">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(2).jpeg" aria-label="Enlarge photo of Viro 103">
+          <img src="assets/img/T112.jpg" alt="Tenacity Viro 103 — Viro 103 padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 103</h4>
+          <p class="name">Viro 103 padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>60 mm</li><li>3 normal keys</li><li>Key-retaining</li></ul>
+          <p class="price">KSh 5,600</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 103 pv viro 103 pv padlock   made in italy 60 mm 3 patented keys key-retaining 6600">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(1).jpeg" aria-label="Enlarge photo of Viro 103 PV">
+          <img src="assets/img/T113.jpg" alt="Tenacity Viro 103 PV — Viro 103 PV padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 103 PV</h4>
+          <p class="name">Viro 103 PV padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>60 mm</li><li>3 patented keys</li><li>Key-retaining</li></ul>
+          <p class="price">KSh 6,600</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 104 viro 104 padlock   made in italy 70 mm 3 normal keys key-retaining 6800">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(4).jpeg" aria-label="Enlarge photo of Viro 104">
+          <img src="assets/img/T114.jpg" alt="Tenacity Viro 104 — Viro 104 padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 104</h4>
+          <p class="name">Viro 104 padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>70 mm</li><li>3 normal keys</li><li>Key-retaining</li></ul>
+          <p class="price">KSh 6,800</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 104 pv viro 104 pv padlock   made in italy 70 mm 3 patented keys key-retaining 7800">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(3).jpeg" aria-label="Enlarge photo of Viro 104 PV">
+          <img src="assets/img/T115.jpg" alt="Tenacity Viro 104 PV — Viro 104 PV padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 104 PV</h4>
+          <p class="name">Viro 104 PV padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>70 mm</li><li>3 patented keys</li><li>Key-retaining</li></ul>
+          <p class="price">KSh 7,800</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 107 viro 107 padlock   made in italy 84 mm 3 normal keys key-retaining 7000">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(7).jpeg" aria-label="Enlarge photo of Viro 107">
+          <img src="assets/img/T116.jpg" alt="Tenacity Viro 107 — Viro 107 padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 107</h4>
+          <p class="name">Viro 107 padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>84 mm</li><li>3 normal keys</li><li>Key-retaining</li></ul>
+          <p class="price">KSh 7,000</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 105 viro 105 padlock   made in italy 80 mm normal keys key-retaining 7500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(6).jpeg" aria-label="Enlarge photo of Viro 105">
+          <img src="assets/img/T117.jpg" alt="Tenacity Viro 105 — Viro 105 padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 105</h4>
+          <p class="name">Viro 105 padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>80 mm</li><li>Normal keys</li><li>Key-retaining</li></ul>
+          <p class="price">KSh 7,500</p>
+        </div>
+      </article>
+      <article class="card" data-search="viro 105 pv viro 105 pv padlock   made in italy 80 mm 3 patented keys key-retaining 8500">
+        <button class="shot" type="button" data-full="images/extracted/WhatsApp%20Image%202026-10-06%20at%2010.11.24%20(5).jpeg" aria-label="Enlarge photo of Viro 105 PV">
+          <img src="assets/img/T118.jpg" alt="Tenacity Viro 105 PV — Viro 105 PV padlock" loading="lazy" decoding="async">
+          <span class="badges"></span>
+        </button>
+        <div class="card-body">
+          <h4 class="model">Viro 105 PV</h4>
+          <p class="name">Viro 105 PV padlock</p>
+          <ul class="specs"><li>Made in Italy</li><li>80 mm</li><li>3 patented keys</li><li>Key-retaining</li></ul>
+          <p class="price">KSh 8,500</p>
+        </div>
+      </article>
+      </div>
+    </section>
+  </div>
+
+<p class="empty" id="empty">No products match your search. Try a model number like “510” or a finish like “MAB”.</p>
+
+<section class="closing" id="contact">
+  <div class="closing-inner">
+    <p class="eyebrow">Order &amp; enquiries</p>
+    <h2>Secure Every Door. Explore the Tenacity Collection.</h2>
+    <a class="phone" href="tel:+254711776688">0711 77 66 88</a>
+    <p>Tenacity Locks Ltd · Along Kijabe Street</p>
+    <ul class="fine"><li>Prices and availability are subject to confirmation with Tenacity Locks.</li><li>Prices are in Kenya shillings (KSh). Crossed-out prices show the earlier price on promotional offers.</li><li>“Non-duplicatable” (marked *) and “lifetime guarantee” are the supplier’s own descriptions, not an independent security certification.</li><li>Guarantee terms apply to door locks as stated by the supplier; they are not extended to padlocks or accessories unless shown.</li></ul>
+  </div>
+</section>
+</main>
+
+<dialog class="lightbox" id="lb"><button type="button" aria-label="Close">×</button><img alt=""></dialog>
+<button class="totop" id="totop" type="button" aria-label="Back to top">↑</button>
+
+<script>
+(() => {
+  const q = document.getElementById('q'), cards = [...document.querySelectorAll('.card')];
+  const sections = [...document.querySelectorAll('.section')], empty = document.getElementById('empty');
+  q.addEventListener('input', () => {
+    const terms = q.value.toLowerCase().trim().split(/\s+/).filter(Boolean);
+    document.body.classList.toggle('searching', terms.length > 0);
+    let shown = 0;
+    cards.forEach(c => { const ok = terms.every(t => c.dataset.search.includes(t)); c.hidden = !ok; shown += ok; });
+    sections.forEach(s => s.hidden = !s.querySelector('.card:not([hidden])'));
+    empty.style.display = shown ? 'none' : 'block';
+  });
+
+  const lb = document.getElementById('lb'), lbImg = lb.querySelector('img');
+  document.addEventListener('click', e => {
+    const b = e.target.closest('.shot');
+    if (b) { lbImg.src = b.dataset.full; lbImg.alt = b.querySelector('img').alt; lb.showModal(); }
+  });
+  lb.addEventListener('click', e => { if (e.target !== lbImg) lb.close(); });
+
+  const chips = [...document.querySelectorAll('.chips a')];
+  const io = new IntersectionObserver(es => es.forEach(en => {
+    if (en.isIntersecting) chips.forEach(a => a.classList.toggle('active', a.hash === '#' + en.target.id));
+  }), {rootMargin: '-40% 0px -55% 0px'});
+  document.querySelectorAll('.collection').forEach(c => io.observe(c));
+
+  const top = document.getElementById('totop');
+  addEventListener('scroll', () => top.classList.toggle('show', scrollY > 900), {passive: true});
+  top.addEventListener('click', () => scrollTo({top: 0}));
+
+  // Make sure every photo is loaded before printing from the browser.
+  addEventListener('beforeprint', () => document.querySelectorAll('img[loading]').forEach(i => i.loading = 'eager'));
+})();
+</script>
+</body>
+</html>

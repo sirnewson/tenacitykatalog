@@ -1,0 +1,127 @@
+{
+  "contact": {
+    "company": "Tenacity Locks Ltd",
+    "phone": "0711 77 66 88",
+    "phone_tel": "+254711776688",
+    "location": "Along Kijabe Street",
+    "cta": "Secure Every Door. Explore the Tenacity Collection."
+  },
+  "notes": [
+    "All standard locks in the main-door range come with a <b>5-year guarantee</b>.",
+    "Premium SUS 304 locks (Category 7) carry a <b>lifetime guarantee</b>, subject to supplier terms.",
+    "Complete lock units include a standard <b>70 mm cylinder</b>.",
+    "For doors wider than <b>2 inches</b>, longer cylinders in <b>80 mm, 90 mm or 100 mm</b> are sold separately (see section 15).",
+    "The included 70 mm cylinder <b>cannot be exchanged or traded in</b> for a longer size."
+  ],
+  "fine_print": [
+    "Prices and availability are subject to confirmation with Tenacity Locks.",
+    "Prices are in Kenya shillings (KSh). Crossed-out prices show the earlier price on promotional offers.",
+    "“Non-duplicatable” (marked *) and “lifetime guarantee” are the supplier’s own descriptions, not an independent security certification.",
+    "Guarantee terms apply to door locks as stated by the supplier; they are not extended to padlocks or accessories unless shown."
+  ],
+  "guide": [
+    ["Bedrooms, offices and interior doors", "01, 02"],
+    ["Bathrooms and toilets", "01 (keyless TM53)"],
+    ["Light-duty steel or light-duty solid wooden doors", "03 — Category 1"],
+    ["Steel doors and heavy-duty wooden doors", "04–08 — Categories 2 to 6"],
+    ["Highest-spec main door, stainless steel lock case", "09 — Category 7"],
+    ["Extra locking point on any door", "10–12 Deadlocks"],
+    ["Wider doors or replacement cylinders", "15 Cylinders"],
+    ["Gates, stores and shutters", "16–18 Padlocks"]
+  ],
+  "collections": [
+    {
+      "id": "A", "title": "Internal Door Locks",
+      "intro": "Locks for bedrooms, bathrooms and other interior doors, from budget-friendly offers to premium rose-handle designs.",
+      "sections": [
+        {"id": "01", "title": "TM53 Series — Entry-Level Internal Door Locks",
+         "copy": "Practical, budget-friendly door locks for interior spaces, available in bathroom/privacy (keyless) and keyed-access configurations, in four finishes.",
+         "quote": "For internal door locks on OFFER (with keys and bathroom options) we have the TM53 series entry level door locks.",
+         "facts": ["Keyless bathroom or keys both sides", "Finishes: MAB, MAC, MCF, MSN"]},
+        {"id": "02", "title": "Premium Quality Internal Door Locks",
+         "copy": "A selection of premium-quality internal door hardware with refined finishes and different access configurations: an executive knob-and-key lock and single-pin or 3-pin locks with modern rose handles.",
+         "quote": "We also have the Premium Quality internal door locks as per the below photos.",
+         "facts": ["Rose handles S01–S04", "Black or SN finish"]}
+      ]
+    },
+    {
+      "id": "B", "title": "Main Door & Steel Door Locks",
+      "intro": "Tenacity offers main-door and steel-door locks ranging from affordable entry-level units to heavy-duty, multiple-bolt and premium stainless steel security systems. Choose the category that matches the door material, use case and required key configuration.",
+      "sections": [
+        {"id": "03", "cat": "Category 1", "title": "Tenacity Entry-Level Locks",
+         "copy": "An economical lock option with three normal brass keys, intended for light-duty steel and light-duty solid wooden doors.",
+         "quote": "They come with 3 normal brass keys and are ideal for both Light Duty Steel and Light Duty Solid wooden doors.",
+         "facts": ["3 normal brass keys", "Light-duty steel & solid wood doors", "5-year guarantee"]},
+        {"id": "04", "cat": "Category 2", "title": "Tenacity Single-Pin with Normal Keys",
+         "copy": "Single-bolt locks with a fully solid zinc bolt and premium Tenacity handles, built for steel doors and heavy-duty wooden doors.",
+         "quote": "They come with 3 brass normal keys, 1 fully SOLID ZINC bolt and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.",
+         "facts": ["3 normal brass keys", "1 fully solid zinc bolt", "Premium Tenacity handles", "Steel & heavy-duty wood doors"]},
+        {"id": "05", "cat": "Category 3", "title": "Tenacity 3-Pin with Dimple Keys",
+         "copy": "Three fully solid brass bolts and five brass dimple keys for a stronger locking point on steel and heavy-duty wooden doors.",
+         "quote": "They come with 5 brass dimple keys, 3 fully solid brass bolts and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.",
+         "facts": ["5 brass dimple keys", "3 fully solid brass bolts", "Premium Tenacity handles", "Steel & heavy-duty wood doors"]},
+        {"id": "06", "cat": "Category 4", "title": "F6 Series",
+         "copy": "Medium-sized, heavy-duty locks with steel 3-pin bolts and five brass keys described by the supplier as non-duplicatable.",
+         "quote": "They are medium sized locks with steel 3-PIN bolts and 5 non-duplicatable keys made from brass. They are heavy duty and ideal for both Steel doors and Heavy-duty wooden door locks.",
+         "facts": ["Medium size", "Steel 3-pin bolts", "5 non-duplicatable* brass keys", "Steel & heavy-duty wood doors"]},
+        {"id": "07", "cat": "Category 5", "title": "Tenacity Rose Handles with 4-Pin & Non-Duplicatable Keys",
+         "copy": "Four solid zinc bolts paired with modern rose handles — a clean, contemporary look with main-door strength.",
+         "quote": "They come with 5 brass non-duplicatable keys, 4 fully solid zinc bolts and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.",
+         "facts": ["5 non-duplicatable* brass keys", "4 fully solid zinc bolts", "Rose handles", "Steel & heavy-duty wood doors"]},
+        {"id": "08", "cat": "Category 6", "title": "Tenacity 4-Pin with Non-Duplicatable Keys",
+         "copy": "Four-bolt locks with a full brass 70 mm cylinder and 2-in-1 double-serrated keys, in a wide choice of handle styles and finishes.",
+         "quote": "They come with 5 brass non-duplicatable keys, 4 fully solid zinc bolts and Premium Tenacity handles. They are ideal for both Steel doors and Heavy-duty wooden door locks.",
+         "facts": ["5 non-duplicatable* brass keys", "4 fully solid bolts", "Full brass 70 mm cylinder", "Steel & heavy-duty wood doors"]},
+        {"id": "09", "cat": "Category 7", "title": "Premium SUS 304 Stainless Steel Mortice Lock",
+         "copy": "The Tenacity Premium SUS 304 Stainless Steel Mortice Lock is designed for customers seeking long-term reliability and superior security. According to the supplier, the lock case, internal mechanisms, springs and screws are SUS 304 stainless steel for resistance to rust and wear, with heavy-duty zinc handles for a solid premium feel.",
+         "quote": "Designed for steel doors and heavy-duty wooden doors, this range is backed by a lifetime guarantee.",
+         "facts": ["SUS 304 stainless steel lock case & mechanism", "Triple-plated, steel-reinforced 70 mm anti-drill cylinder", "Non-duplicatable* keys", "Heavy-duty zinc handles", "Lifetime guarantee"]}
+      ]
+    },
+    {
+      "id": "C", "title": "Deadlocks",
+      "intro": "Add a dedicated locking point to any door. Choose by how the lock engages when the door closes.",
+      "sections": [
+        {"id": "10", "title": "Non-Latching Deadlocks",
+         "copy": "Manually operated deadlocks that do not lock automatically when the door closes. Use the key to engage the locking bolt.",
+         "quote": "We have the non-latching deadlocks (it does not lock automatically you have to use the key to lock).",
+         "facts": ["Locks only with the key"]},
+        {"id": "11", "title": "Auto-Latching Deadlocks",
+         "copy": "Automatic-latching deadlocks whose mechanism engages when the door shuts. Correct installation remains essential.",
+         "quote": "We also have the Auto-latching deadlocks (it locks automatically once banged).",
+         "facts": ["Locks automatically when the door shuts"]},
+        {"id": "12", "title": "Ball-Catch Deadlocks",
+         "copy": "A hybrid between non-latching and auto-latching deadlocks. The ball catch holds the door closed when it shuts; if the lower bolt is not locked, the door can be pushed or pulled open without a key. Turn the key to engage the main bolt when full locking is needed.",
+         "quote": "A hybrid solution between non-latching and auto-latching deadlocks.",
+         "facts": ["Ball catch holds the door", "Key engages the main bolt"]}
+      ]
+    },
+    {
+      "id": "D", "title": "Door Hardware & Accessories",
+      "intro": "Pull handles, push and pull plates, bathroom sets and replacement cylinders.",
+      "sections": [
+        {"id": "13", "title": "Door Pullers",
+         "copy": "Door pull handles and push/pull plates for a range of entrance designs. Handle sizes are listed with their individual prices.",
+         "quote": "For the door pullers",
+         "facts": []},
+        {"id": "14", "title": "Bathroom Sets",
+         "copy": "Bathroom accessory sets in three series (7500, 7600, 7800) and AB, GP and SN finishes. Set contents are as pictured.",
+         "quote": "For the bathroom set",
+         "facts": ["All sets on offer: KSh 3,000 (was 3,500)"]},
+        {"id": "15", "title": "Cylinders",
+         "copy": "Replacement and longer door lock cylinders. Standard lock packages include a 70 mm cylinder; for doors wider than 2 inches, choose an 80 mm, 90 mm or 100 mm cylinder. The included 70 mm cylinder cannot be exchanged or traded in.",
+         "quote": "Cylinders",
+         "facts": ["70 / 80 / 90 / 100 mm where listed"]}
+      ]
+    },
+    {
+      "id": "E", "title": "Padlocks",
+      "intro": "Brass padlocks from budget to Italian-made, for gates, stores and shutters.",
+      "sections": [
+        {"id": "16", "title": "Tri-Circle Padlocks", "copy": "Brass Tri-Circle padlocks in four sizes, priced from the shelf labels.", "quote": "Padlocks: Tri-circle", "facts": []},
+        {"id": "17", "title": "Mindy Padlocks", "copy": "Mindy anti-theft padlocks in 40, 50 and 60 mm, with or without a shackle guard.", "quote": "Mindy", "facts": []},
+        {"id": "18", "title": "Viro Padlocks", "copy": "Italian-made Viro padlocks with normal or patented keys, in key-retaining and non-key-retaining versions.", "quote": "Viro", "facts": ["Made in Italy"]}
+      ]
+    }
+  ]
+}
