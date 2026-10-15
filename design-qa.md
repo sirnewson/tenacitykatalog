@@ -1,6 +1,6 @@
 # Design QA — Tenacity React storefront
 
-- Source visual truth: `qa/source-reference.png` (editorial dark hero) and `qa/source-reference-mobile.png` (mobile composition reference).
+- Source visual truth: `qa/source-reference.png` (editorial dark hero), `qa/source-reference-mobile.png` (mobile composition), `qa/card-reference.png` (4:5 catalogue card), and `qa/footer-reference.png` (deep-charcoal closing card).
 - Implementation evidence: `qa/implementation-desktop.png` plus the browser-rendered mobile capture from the Codex in-app Browser.
 - Desktop viewport: 1440 × 1000 CSS px, device scale factor 1.
 - Source pixels: 840 × 630 desktop reference; 720 × 1280 mobile reference.
@@ -38,6 +38,7 @@ The hero was reviewed at desktop and narrow mobile widths because it carries the
 - Initial browser pass: currency casing followed the locale's `Ksh`; fixed to the Tenacity convention `KSh`.
 - Initial React review: search DOM state and modal keyboard behavior were tightened using a ref and Escape handling.
 - Post-fix evidence: production build passes, search and WhatsApp enquiry flow pass, and the refreshed desktop hero capture is stored at `qa/implementation-desktop.png`.
+- Card refinement pass: the browser-measured product media slot is 168.5 × 210.625 CSS px on mobile, an exact 4:5 ratio (`0.8`). Warm card surfaces, clearer borders, and a dedicated branded price treatment were verified with three filtered S04 products at 390 × 844. No console warnings or errors were present.
 
 ## Follow-up polish
 
